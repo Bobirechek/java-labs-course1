@@ -3,4 +3,4 @@
 
 ### Лабы
 **1 Семестр**
-- [Первая](https://github.com/Bobirechek/java-labs-course1/Lab1)
+- [Первая](https://github.com/Bobirechek/java-labs-course1/blob/main/Lab1/Main.java)
