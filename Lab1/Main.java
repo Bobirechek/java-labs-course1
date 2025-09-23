@@ -1,5 +1,5 @@
 package Lab1;
-// 27846
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -67,7 +67,7 @@ public class Main {
     public static void output(double[][] arr) {
         for (int i = 0; i < 11; i++) {
             for (int j = 0; j < 14; j++) {
-                System.out.printf("%.5f ", arr[i][j]);
+                System.out.printf("%9.5f | ", arr[i][j]);
             }
             System.out.println();
         }
