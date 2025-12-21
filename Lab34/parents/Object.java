@@ -1,0 +1,37 @@
+package parents;
+
+import enums.ItemStatus;
+import enums.PersonStatus;
+
+public abstract class Object {
+    private String name;
+    private ItemStatus condition;
+    private PersonStatus personStat;
+
+    public Object(String name, ItemStatus condition, PersonStatus personStat){
+        this.name = name;
+        this.condition = condition;
+        this.personStat = personStat;
+
+    }
+
+    @Override
+    public String toString(){
+        return this.name;
+    }
+
+    public String getName(){
+        return this.name;
+    }
+
+    public void setCondition(ItemStatus newStat) {
+        this.condition = newStat;
+    }
+    public ItemStatus getCondition() {
+        return this.condition;
+    }
+    public PersonStatus getPersonStat() {
+        return this.personStat;
+    }
+
+}
