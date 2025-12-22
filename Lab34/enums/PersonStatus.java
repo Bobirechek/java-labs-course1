@@ -1,9 +1,10 @@
 package enums;
 
 public enum PersonStatus {
-    SIMPLE("Simple"),
-    GROUP("Group");
-
+    TALK("говорит"),
+    DOING("делает"),
+    MOVE("передвигается"),
+    ALIVE("существует");
 
     public final String status;
 

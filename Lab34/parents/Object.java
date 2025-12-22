@@ -25,6 +25,9 @@ public abstract class Object {
     }
 
     public void setCondition(ItemStatus newStat) {
+        if (this.name.equals("ракета")) {
+            System.out.println(name + " теперь имеет " + newStat);
+        }
         this.condition = newStat;
     }
     public ItemStatus getCondition() {
@@ -32,6 +35,9 @@ public abstract class Object {
     }
     public PersonStatus getPersonStat() {
         return this.personStat;
+    }
+    public void setPersonStat(PersonStatus newStat) {
+        this.personStat = newStat;
     }
 
 }

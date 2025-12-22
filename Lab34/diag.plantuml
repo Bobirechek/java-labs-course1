@@ -1,94 +1,99 @@
-@startuml
+@startuml Story
 skinparam classAttributeIconSize 0
 
-' ===== Интерфейс =====
-interface Actionable {
-    +act() : void
+' ================== ИНТЕРФЕЙС ==================
+interface Story {
+    offer(String a): void
+    hope(String a): void
+    doThis(String a): void
+    goTo(Location l): void
+    begin(String a): void
 }
 
-' ===== Абстрактный класс =====
-abstract class Character {
+' ================== АБСТРАКТНЫЕ КЛАССЫ ==================
+abstract class Object {
     -name : String
-    -energy : int
-    +act() : void
-    #spendEnergy(amount : int) : void
+    -condition: ItemStatus
+    -personStat: PersonStatus
+    +getName() : String
+    +getCondition() : ItemStatus
+    +setCondition(ItemStatus newStat) : void
+    +getPersonStat(): PersonStatus
+    +setPersonStat(PersonStatus newStat): void
     +toString() : String
-    +equals(o : Object) : boolean
-    +hashCode() : int
 }
 
-Actionable <|.. Character
-
-' ===== Персонажи =====
-class Znayka {
-    +proposeDualControl(rocket : Rocket) : void
+abstract class Person {
+    -name : String
+    -status: PersonStatus
+    +getName() : String
+    +getStatus() : PersonStatus
+    +addPerson(String name) : void
+    +setStat(PersonStatus newStat) : void
+    +toString() : String
 }
 
-class Fuksiya {
-    +drawSketch() : Blueprint
+Object -left- Person
+
+
+' ================== КОНКРЕТНЫЕ КЛАССЫ ==================
+class Human {
+    +offer(String a) : void
+    +hope(String a) : void
+    +doThis(String a) : void
+    +goTo(Location l) : void
+    +begin(String a) : void
 }
 
-class Seledochka {
-    +drawSketch() : Blueprint
+Person -down-|> Human
+Story -left-> Human: implements
+
+class Item {
+    -isMineralFound : boolean
+    +goTo(Location l) : void
+    +doThis(String a) : void
+    +isFound() : void
 }
 
-class Engineer {
-    +createBlueprint(part : String) : Blueprint
+Object --|> Item
+
+class Location {
+    +toString(): void
+    +getLocation: String
 }
 
-Character <|-- Znayka
-Character <|-- Fuksiya
-Character <|-- Seledochka
-Character <|-- Engineer
+Object --|> Location
 
-' ===== Ракета =====
-class Rocket {
-    -stages : List<RocketStage>
-    -controlMode : ControlMode
-    +addStage(stage : RocketStage) : void
-    +enableDualControl() : void
-    +switchMode(mode : ControlMode) : void
+' ================== ENUM ==================
+enum PersonStatus <<enum>> {
+    TALK
+    DOING
+    MOVE
+    ALIVE
 }
 
-class RocketStage {
-    -dualControl : boolean
-    +setDualControl(value : boolean) : void
-}
-
-Rocket "1" *-- "1..*" RocketStage
-
-' ===== Enum =====
-enum ControlMode {
+enum ItemStatus <<enum>> {
+    SKETCH
+    PLAN
+    LUNIT
+    NOLUNIT
+    DUALCONTROL
+    SINGLECONTROL
     GRAVITY
-    ZERO_GRAVITY
+    ZEROGRAVITY
+    LOCATION
+    ELEMENT
 }
 
-Rocket --> ControlMode
+Person <-right- PersonStatus
+Object <-left- PersonStatus
+Object <-- ItemStatus
 
-' ===== Record =====
-class Blueprint <<record>> {
-    partName : String
-    complexity : int
-}
-
-' ===== Завод =====
-class Factory {
-    +produce(blueprint : Blueprint) : void
-}
-
-Factory --> Blueprint
-
-' ===== Лунит =====
-class Lunit {
-    -mass : double
-    +getMass() : double
-}
-
-' ===== Исключения =====
-class NoLunitException <<exception>> {
+' ================== ИСКЛЮЧЕНИЕ ==================
+class NotFound <<exception>> {
     +getMessage() : String
 }
 
-class EnergyException <<exception>>
+Item --> NotFound : throws
 
 @enduml

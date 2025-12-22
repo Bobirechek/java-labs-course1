@@ -14,26 +14,23 @@ public class Item extends Object {
 
     public void isFound() throws NotFound {
             if (this.getCondition() == ItemStatus.LUNIT) {
-                System.out.println(this.getName() + " найден!!\nВсех найдем и спасем");
+                System.out.println(this.getName() + " найден!!");
                 this.isMineralFound = true;
             } else {
+                this.isMineralFound = false;
                 throw new NotFound(this.getName() + " не найден");
-        }
+            }
     }
 
     public void goTo(Location l) {
-        String res;
-        if (this.getPersonStat() == PersonStatus.SIMPLE ) {
-            res = " направляется на "; 
-        } else {
-            res = " направляются на ";
-        }
-        // setCondition(ItemStatus.DESTROYED);
-        System.out.println(this.getName() + res + l);
+        setPersonStat(PersonStatus.MOVE);
+        System.out.println(this.getName() + " направляется на " + l);
     }
 
     public void doThis(String a) {
-        // setCondition(ItemStatus.DESTROYED);
+        setPersonStat(PersonStatus.DOING);
         System.out.println(this.getName() + " " + a);
     }
 }
+
+

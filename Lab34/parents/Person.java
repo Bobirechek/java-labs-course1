@@ -21,14 +21,7 @@ public abstract class Person {
     public PersonStatus getStatus() {
         return this.status;
     }
-    public void addPerson(String name) {
-        this.name += " и " + name;
-        setStat(PersonStatus.GROUP);
-    }
     public void setStat(PersonStatus newStat) {
         this.status = newStat;
-    }
-    public void talk(String a) {
-        System.out.println(a);
     }
 }

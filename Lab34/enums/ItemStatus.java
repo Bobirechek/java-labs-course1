@@ -1,14 +1,16 @@
 package enums;
 
 public enum ItemStatus{
-    SKETCH("sketch"),
-    PLAN("plan"),
-    LUNIT("lunit is found"),
-    NOLUNIT("no lunit"),
+    SKETCH("эскиз"),
+    PLAN("чертеж"),
+    LUNIT("линит найден"),
+    NOLUNIT("нет лунита"),
+    DUALCONTROL("двоякое управление"),
+    SINGLECONTROL("одиночное управление"),
     GRAVITY("gravity control"),
     ZEROGRAVITY("zero gravity"),
-    LOCATION("location"),
-    ELEMENT("element");
+    LOCATION("локация"),
+    ELEMENT("элемент");
 
     public final String condition;
 
