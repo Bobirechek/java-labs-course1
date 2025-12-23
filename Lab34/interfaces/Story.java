@@ -2,6 +2,7 @@ package interfaces;
 
 import daugther.Location;
 
+// Интервейс
 public interface Story {
     void offer(String a);
     void hope(String a);

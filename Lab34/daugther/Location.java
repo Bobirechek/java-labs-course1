@@ -4,6 +4,7 @@ import enums.ItemStatus;
 import enums.PersonStatus;
 import parents.Object;
 
+// Дочерний класс Объекта - локация, представляет какое-то место
 public class Location extends Object {
     public Location(String name, PersonStatus pstat) {
         super(name, ItemStatus.LOCATION, pstat);

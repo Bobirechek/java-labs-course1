@@ -3,6 +3,7 @@ package parents;
 import enums.ItemStatus;
 import enums.PersonStatus;
 
+// Обстрактный класс для объектов любого вида
 public abstract class Object {
     private String name;
     private ItemStatus condition;

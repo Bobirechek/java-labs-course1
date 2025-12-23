@@ -1,5 +1,6 @@
 package enums;
 
+// Класс, представляющий различные статусы
 public enum ItemStatus{
     SKETCH("эскиз"),
     PLAN("чертеж"),

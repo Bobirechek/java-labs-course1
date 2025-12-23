@@ -8,6 +8,7 @@ import interfaces.Story;
 
 public class Main {
     public static void main(String[] args) {
+        // Объявление всехдействующих лиц
         Human znaika = new Human("Знайка", PersonStatus.ALIVE);
         Human neznaika = new Human("Незнайка", PersonStatus.ALIVE);
         Human ponchik = new Human("Пончик", PersonStatus.ALIVE);
@@ -25,9 +26,11 @@ public class Main {
         Location gorodok = new Location("Научный городок", PersonStatus.ALIVE);
         Location zavody = new Location("Заводы", PersonStatus.ALIVE);
 
+        // Сценарий
         znaika.offer("последняя ступень " + rocket.getName() + " должна иметь " + ItemStatus.DUALCONTROL + ": управление для полетов в условиях тяжести и управление для полетов в состоянии невесомости.");
         znaika.hope("по прибытии на " + luna + " обнаружить залежи " + lunit);
 
+        // "Отлавливание" ошибки
         try {
             lunit.isFound();
         } catch (NotFound e){

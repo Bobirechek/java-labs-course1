@@ -1,5 +1,6 @@
 package enums;
 
+// Класс, представляющий различные статусы
 public enum PersonStatus {
     TALK("говорит"),
     DOING("делает"),

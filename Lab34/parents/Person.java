@@ -2,6 +2,7 @@ package parents;
 
 import enums.PersonStatus;
 
+// Абстрактный  класс для людей
 public abstract class Person {
     protected String name;
     protected PersonStatus status;
