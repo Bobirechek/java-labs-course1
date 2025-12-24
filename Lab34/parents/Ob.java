@@ -4,12 +4,12 @@ import enums.ItemStatus;
 import enums.PersonStatus;
 
 // Обстрактный класс для объектов любого вида
-public abstract class Object {
+public abstract class Ob {
     private String name;
     private ItemStatus condition;
     private PersonStatus personStat;
 
-    public Object(String name, ItemStatus condition, PersonStatus personStat){
+    public Ob(String name, ItemStatus condition, PersonStatus personStat){
         this.name = name;
         this.condition = condition;
         this.personStat = personStat;

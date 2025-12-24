@@ -9,4 +9,5 @@ public interface Story {
     void doThis(String a);
     void goTo(Location l);
     void begin(String a);
+    void talk(String a);
 }

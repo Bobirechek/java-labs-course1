@@ -2,10 +2,10 @@ package daugther;
 
 import enums.ItemStatus;
 import enums.PersonStatus;
-import parents.Object;
+import parents.Ob;
 
 // Дочерний класс Объекта - локация, представляет какое-то место
-public class Location extends Object {
+public class Location extends Ob {
     public Location(String name, PersonStatus pstat) {
         super(name, ItemStatus.LOCATION, pstat);
     }

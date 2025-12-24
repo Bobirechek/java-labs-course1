@@ -5,6 +5,7 @@ import enums.ItemStatus;
 import enums.PersonStatus;
 import exception.NotFound;
 import interfaces.Story;
+import java.lang.Math;
 
 public class Main {
     public static void main(String[] args) {
@@ -30,30 +31,24 @@ public class Main {
         znaika.offer("последняя ступень " + rocket.getName() + " должна иметь " + ItemStatus.DUALCONTROL + ": управление для полетов в условиях тяжести и управление для полетов в состоянии невесомости.");
         znaika.hope("по прибытии на " + luna + " обнаружить залежи " + lunit);
 
+        if (Math.random() < 0.7) {
+            lunit.setCondition(ItemStatus.LUNIT);
+        }
         // "Отлавливание" ошибки
         try {
             lunit.isFound();
-        } catch (NotFound e){
-            System.out.println(e.getMessage());
-            System.out.println("Соорудить " + zeroGDevice + " не получится(\nполеты " + rocket.getName() + " вокруг " + luna + " очень усложнены и поиски " + neznaika + " и " + ponchik + " будут оочень сложными");
-        }
-        lunit.setCondition(ItemStatus.LUNIT);
-        try {
-            lunit.isFound();
             rocket.setCondition(ItemStatus.DUALCONTROL);
-            System.out.println("Всех найдем и спасем");
+            System.out.println(neznaika + " и " + ponchik + "Будут спасены");
+
+            girls.doThis("работу по составлению " + sketch);
+            girls.goTo(gorodok);
+            engineers.begin("делать подробные " + engineerPlan);
+            engineerPlan.goTo(zavody);
+            equipment.doThis("отливается, куется, штампуется, а также изготавливается");
         } catch (NotFound e){
             System.out.println(e.getMessage());
-            System.out.println("Соорудить прибор невесомости не получится(\nполеты ракеты вокруг Луны очень усложнены и поиски Незнайки и Пончика будут оочень сложными");
+            System.out.println("Соорудить прибор невесомости не получится(\nполеты ракеты вокруг Луны очень усложнены и поиски " + neznaika + " и " + ponchik + " будут оочень сложными");
+            znaika.talk("Будем думать, что делать дальше и как спасти " + neznaika + " и " + ponchik);
         }
-
-        girls.doThis("работу по составлению " + sketch);
-        girls.goTo(gorodok);
-
-        engineers.begin("делать подробные " + engineerPlan);
-
-        engineerPlan.goTo(zavody);
-
-        equipment.doThis("отливается, куется, штампуется, а также изготавливается");
     }
 }

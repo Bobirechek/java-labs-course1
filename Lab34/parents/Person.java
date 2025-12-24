@@ -25,4 +25,5 @@ public abstract class Person {
     public void setStat(PersonStatus newStat) {
         this.status = newStat;
     }
+    
 }

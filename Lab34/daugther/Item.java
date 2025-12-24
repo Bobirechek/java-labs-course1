@@ -3,11 +3,11 @@ package daugther;
 import enums.ItemStatus;
 import enums.PersonStatus;
 import exception.NotFound;
-import parents.Object;
+import parents.Ob;
 import daugther.Location;
 
 // Класс для предметов
-public class Item extends Object {
+public class Item extends Ob {
     protected boolean isMineralFound = false;
     public Item(String name, ItemStatus itemStatus, PersonStatus pstat) {
         super(name, itemStatus, pstat);

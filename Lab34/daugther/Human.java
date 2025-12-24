@@ -41,4 +41,7 @@ public class Human extends Person implements Story {
         setStat(PersonStatus.DOING);
         System.out.println(this.getName() + " начали " + a);
     }
+    public void talk(String a) {
+        System.out.println(this.getName()  + " сказал: " + a);
+    }
 }
