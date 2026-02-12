@@ -37,7 +37,7 @@ public class Main {
         // "Отлавливание" ошибки
         try {
             lunit.isFound();
-            rocket.setCondition(ItemStatus.DUALCONTROL);
+            znaika.talk("у нас получится соорудить " + zeroGDevice);
             System.out.println(neznaika + " и " + ponchik + "Будут спасены");
 
             girls.doThis("работу по составлению " + sketch);
@@ -45,6 +45,7 @@ public class Main {
             engineers.begin("делать подробные " + engineerPlan);
             engineerPlan.goTo(zavody);
             equipment.doThis("отливается, куется, штампуется, а также изготавливается");
+            rocket.setCondition(ItemStatus.DUALCONTROL);
         } catch (NotFound e){
             System.out.println(e.getMessage());
             System.out.println("Соорудить прибор невесомости не получится(\nполеты ракеты вокруг Луны очень усложнены и поиски " + neznaika + " и " + ponchik + " будут оочень сложными");
