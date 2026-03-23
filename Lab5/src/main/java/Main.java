@@ -1,8 +1,8 @@
-package main.java;
 import builders.InteractiveHumanBeingBuilder;
 import managers.*;
 import commands.*;
 import models.HumanBeing;
+import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class Main {
@@ -46,6 +46,7 @@ public class Main {
         commandManager.register(new ExecuteScriptCommand(commandManager));
         commandManager.register(new ClearCommand(collectionManager));
         commandManager.register(new CountBySoundtrackNameCommand(collectionManager));
+        commandManager.register(new ExecuteScriptCommand(commandManager));
         commandManager.register(new ExitCommand());
         commandManager.register(new FilterContainsNameCommand(collectionManager));
         commandManager.register(new InfoCommand(collectionManager));
@@ -58,19 +59,23 @@ public class Main {
         commandManager.register(new SortCommand(collectionManager));
         commandManager.register(new UpdateCommand(collectionManager, builder));
 
-        while (true) {
+        try {
+            while (true) {
+                
+                    System.out.print("> ");
 
-            System.out.print("> ");
+                    String line = scanner.nextLine();
 
-            String line = scanner.nextLine();
+                    String[] parts = line.split(" ", 2);
 
-            String[] parts = line.split(" ", 2);
+                    String name = parts[0];
 
-            String name = parts[0];
+                    String arg = parts.length > 1 ? parts[1] : null;
 
-            String arg = parts.length > 1 ? parts[1] : null;
-
-            commandManager.execute(name, arg);
+                    commandManager.execute(name, arg);
+            }
+        } catch (NoSuchElementException e) {
+            System.out.println("Bye bye");
         }
     }
 }

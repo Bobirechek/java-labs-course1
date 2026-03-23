@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": 2,
+    "name": "asd",
+    "coordinates": {
+      "x": 1,
+      "y": 1
+    },
+    "creationDate": "2026-03-10T18:47:08.096841900",
+    "realHero": true,
+    "hasToothpick": true,
+    "impactSpeed": 5.0,
+    "soundtrackName": "1"
+  }
+]

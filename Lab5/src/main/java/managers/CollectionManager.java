@@ -4,9 +4,7 @@ import models.HumanBeing;
 
 import java.time.LocalDateTime;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.Vector;
-import managers.FileManager;
 
 public class CollectionManager {
 

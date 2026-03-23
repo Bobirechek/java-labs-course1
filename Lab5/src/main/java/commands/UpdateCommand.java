@@ -41,8 +41,14 @@ public class UpdateCommand extends AbstractCommand {
         }
 
         HumanBeing newHuman = builder.build();
+        HumanBeing oldHuman = manager.getCollection().stream()
+            .filter(h -> h.getId() == id)
+            .findFirst()
+            .orElse(null);
 
         manager.removeById(id);
+        newHuman.setId(id);
+        newHuman.setCreationDate(oldHuman.getCreationDate());
 
         manager.add(newHuman);
 

@@ -67,6 +67,18 @@ public class HumanBeing implements Comparable<HumanBeing> {
     public double getImpactSpeed(){return impactSpeed;}
     public String getSoundtrackName(){return soundtrackName;}
 
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public void setCreationDate(LocalDateTime creationDate) {
+        this.creationDate = creationDate;
+    }
+
+    public LocalDateTime getCreationDate() {
+        return this.creationDate;
+    }
+
     @Override
     public int compareTo(HumanBeing o) {
         return name.compareTo(o.name);

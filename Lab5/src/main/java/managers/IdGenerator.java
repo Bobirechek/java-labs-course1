@@ -1,11 +1,7 @@
 package managers;
 
-import models.HumanBeing;
-import managers.CollectionManager;
-
 public class IdGenerator {
 
-    private final CollectionManager manager = new CollectionManager();
     private static long currentId;
     
     public static void setCurrencyId(long id){

@@ -1,4 +1,0 @@
-help
-show
-execute_script file.txt
-exit
