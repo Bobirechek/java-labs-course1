@@ -23,7 +23,7 @@ public class ShowCommand extends AbstractCommand {
                 manager.getCollection()
                     .stream()
                     .map(Object::toString)
-                    .collect(java.util.stream.Collectors.joining("\n"+ "=".repeat(50) + "\n"))
+                    .collect(java.util.stream.Collectors.joining("\n"+ "=".repeat(45) + "\n"))
             );    
         }
     }

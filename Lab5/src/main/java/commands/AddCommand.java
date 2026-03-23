@@ -2,6 +2,7 @@ package commands;
 
 import builders.HumanBeingBuilder;
 import managers.CollectionManager;
+import managers.JsonManager;
 import models.HumanBeing;
 
 public class AddCommand extends AbstractCommand {
@@ -20,10 +21,30 @@ public class AddCommand extends AbstractCommand {
     @Override
     public void execute(String arg) {
 
-        HumanBeing human = builder.build();
+        HumanBeing human;
+
+        if (arg != null && arg.startsWith("{")) {
+
+            human = JsonManager.parseHuman(arg);
+
+            // IF THE OBJECT WAS NOT CREATED — THE COMMAND IS TERMINATED
+            if (human == null) {
+                System.out.println("Element was not added.");
+                return;
+            }
+
+        } else {
+
+            human = builder.build();
+
+            if (human == null) {
+                System.out.println("Input error. Element not added.");
+                return;
+            }
+        }
 
         manager.add(human);
 
-        System.out.println("Element added successfully.");
+        System.out.println("Element successfully added.");
     }
 }

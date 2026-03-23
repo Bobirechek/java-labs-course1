@@ -11,5 +11,32 @@
     "hasToothpick": true,
     "impactSpeed": 5.0,
     "soundtrackName": "1"
+  },
+  {
+    "id": 3,
+    "name": "bbb",
+    "coordinates": {
+      "x": 1,
+      "y": 1
+    },
+    "creationDate": "2026-03-23T20:39:09.135421100",
+    "realHero": true,
+    "hasToothpick": true,
+    "impactSpeed": 5.0,
+    "soundtrackName": "asd"
+  },
+  {
+    "id": 4,
+    "name": "rrrrr",
+    "coordinates": {
+      "x": 10,
+      "y": 20
+    },
+    "creationDate": "2026-03-23T22:36:24.239328200",
+    "realHero": false,
+    "impactSpeed": 120.5,
+    "soundtrackName": "rock",
+    "weaponType": "HAMMER",
+    "mood": "CALM"
   }
 ]

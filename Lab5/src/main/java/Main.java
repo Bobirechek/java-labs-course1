@@ -52,7 +52,7 @@ public class Main {
         commandManager.register(new InfoCommand(collectionManager));
         commandManager.register(new PrintFieldDescendingImpactSpeedCommand(collectionManager));
         commandManager.register(new RemoveByIdCommand(collectionManager));
-        commandManager.register(new RemoveGreaterCommand(collectionManager));
+        commandManager.register(new RemoveGreaterCommand(collectionManager, fileManager));
         commandManager.register(new ReorderCommand(collectionManager));
         commandManager.register(new SaveCommand(collectionManager, fileManager));
         commandManager.register(new ShowCommand(collectionManager));

@@ -2,7 +2,6 @@ package models;
 
 import java.time.LocalDateTime;
 
-
 public class HumanBeing implements Comparable<HumanBeing> {
 
     private Long id;
@@ -62,10 +61,31 @@ public class HumanBeing implements Comparable<HumanBeing> {
         }
     }
 
-    public Long getId(){return id;}
-    public String getName(){return name;}
-    public double getImpactSpeed(){return impactSpeed;}
-    public String getSoundtrackName(){return soundtrackName;}
+    // ====== GETTERS ======
+
+    public Long getId(){ return id; }
+
+    public String getName(){ return name; }
+
+    public Coordinates getCoordinates(){ return coordinates; }
+
+    public LocalDateTime getCreationDate(){ return creationDate; }
+
+    public boolean isRealHero(){ return realHero; }
+
+    public Boolean getHasToothpick(){ return hasToothpick; }
+
+    public double getImpactSpeed(){ return impactSpeed; }
+
+    public String getSoundtrackName(){ return soundtrackName; }
+
+    public WeaponType getWeaponType(){ return weaponType; }
+
+    public Mood getMood(){ return mood; }
+
+    public Car getCar(){ return car; }
+
+    // ====== SETTERS ======
 
     public void setId(long id) {
         this.id = id;
@@ -75,21 +95,21 @@ public class HumanBeing implements Comparable<HumanBeing> {
         this.creationDate = creationDate;
     }
 
-    public LocalDateTime getCreationDate() {
-        return this.creationDate;
-    }
+    // ====== SORTING ======
 
     @Override
     public int compareTo(HumanBeing o) {
         return name.compareTo(o.name);
     }
 
+    // ====== STRING OUTPUT ======
+
     @Override
     public String toString() {
         return "Id - " + id + "\nName - " + name +
         "\nCoordinates - (x = " + coordinates.getX() + ", y = " + coordinates.getY() + ")" +
-        "\ncreationDate - " + creationDate + 
-        "\nRealHero - " + realHero + 
+        "\ncreationDate - " + creationDate +
+        "\nRealHero - " + realHero +
         "\nHasToothpick - " + hasToothpick +
         "\nImpactSpeed - " + impactSpeed +
         "\nSoundtrackName - " + soundtrackName +

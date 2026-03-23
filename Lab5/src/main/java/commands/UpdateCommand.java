@@ -2,6 +2,7 @@ package commands;
 
 import builders.HumanBeingBuilder;
 import managers.CollectionManager;
+import managers.JsonManager;
 import models.HumanBeing;
 
 public class UpdateCommand extends AbstractCommand {
@@ -27,11 +28,13 @@ public class UpdateCommand extends AbstractCommand {
             return;
         }
 
+        String[] parts = arg.split(" ",2);
+
         long id;
 
         try {
 
-            id = Long.parseLong(arg);
+            id = Long.parseLong(parts[0]);
 
         } catch (NumberFormatException e) {
 
@@ -40,18 +43,41 @@ public class UpdateCommand extends AbstractCommand {
             return;
         }
 
-        HumanBeing newHuman = builder.build();
+        HumanBeing newHuman;
+
+        if(parts.length > 1 && parts[1].startsWith("{")){
+
+            newHuman = JsonManager.parseHuman(parts[1]);
+
+        } else {
+
+            newHuman = builder.build();
+        }
+
         HumanBeing oldHuman = manager.getCollection().stream()
-            .filter(h -> h.getId() == id)
-            .findFirst()
-            .orElse(null);
+                .filter(h -> h.getId() == id)
+                .findFirst()
+                .orElse(null);
+
+        if(oldHuman == null){
+
+            System.out.println("Element with this id not found.");
+
+            return;
+        }
+
+        if (newHuman == null) {
+            System.out.println("Element was not updated.");
+            return;
+        }
 
         manager.removeById(id);
+
         newHuman.setId(id);
         newHuman.setCreationDate(oldHuman.getCreationDate());
 
         manager.add(newHuman);
 
-        System.out.println("Element update.");
+        System.out.println("Element successfully update");
     }
 }
