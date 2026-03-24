@@ -1,24 +1,19 @@
 package commands;
 
 import managers.CommandManager;
+import managers.ScriptManager;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.HashSet;
-import java.util.Scanner;
 import java.util.Set;
-
 
 public class ExecuteScriptCommand extends AbstractCommand {
 
     private final CommandManager manager;
-
     private static final Set<String> executing = new HashSet<>();
 
     public ExecuteScriptCommand(CommandManager manager) {
-
-        super("execute_script", "execute_script file_name : read and execute the script from the specified file");
-
+        super("execute_script", "execute_script file_name : execute script");
         this.manager = manager;
     }
 
@@ -26,59 +21,48 @@ public class ExecuteScriptCommand extends AbstractCommand {
     public void execute(String arg) {
 
         if (arg == null) {
-
-            System.out.println("You need to specify the file name.");
-
+            System.out.println("Specify file name.");
             return;
         }
 
         if (executing.contains(arg)) {
-
-            System.out.println("Script recursion error.");
-
+            System.out.println("Recursion detected.");
             return;
         }
 
-        executing.add(arg);
+        try {
 
-        try (Scanner scanner = new Scanner(new File(arg))) {
+            executing.add(arg);
 
-            while (scanner.hasNextLine()) {
+            ScriptManager.pushScript(arg);
 
-                String line = scanner.nextLine();
+            while (ScriptManager.getScanner().hasNextLine()) {
+
+                String line = ScriptManager.getScanner().nextLine();
+
+                if (line.isEmpty())
+                    continue;
 
                 String[] parts = line.split(" ", 2);
 
                 String name = parts[0];
-
                 String argument = parts.length > 1 ? parts[1] : null;
-                
-                try {
-                    Thread.sleep(1000);
-                } catch (InterruptedException e) {
-                    Thread.currentThread().interrupt();
-                }
-                
-                if (!name.equals("execute_script") && argument != arg) {
-                    System.out.println("> " + name + " " + (argument != null
-                                                            ? argument
-                                                            : ""));
-                }
-            
-                try {
-                    Thread.sleep(500);
-                } catch (InterruptedException e) {
-                    Thread.currentThread().interrupt();
-                }
 
                 manager.execute(name, argument);
             }
 
         } catch (FileNotFoundException e) {
 
-            System.out.println("File not found.");
-        }
+            System.out.println("Script file not found.");
 
-        executing.remove(arg);
+        } catch (Exception e) {
+
+            System.out.println("Script error: " + e.getMessage());
+
+        } finally {
+
+            ScriptManager.popScript();
+            executing.remove(arg);
+        }
     }
 }

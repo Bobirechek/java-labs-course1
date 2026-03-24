@@ -1,1 +1,1 @@
-remove_greater {"name":"Bobi","coordinates":{"x":10,"y":20},"impactSpeed":120.5,"soundtrackName":"rock","weaponType":"HAMMER","mood":"CALM"}
+update 2 {"name":"a","coordinates":{"x":1,"y":1},"impactSpeed":120.5,"soundtrackName":"aaaaa","weaponType":"HAMMER","mood":"CALM"}

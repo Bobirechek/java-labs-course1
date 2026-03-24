@@ -27,7 +27,6 @@ public class AddCommand extends AbstractCommand {
 
             human = JsonManager.parseHuman(arg);
 
-            // IF THE OBJECT WAS NOT CREATED — THE COMMAND IS TERMINATED
             if (human == null) {
                 System.out.println("Element was not added.");
                 return;

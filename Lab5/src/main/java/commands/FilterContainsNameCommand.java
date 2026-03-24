@@ -18,6 +18,8 @@ public class FilterContainsNameCommand implements Command{
                 .stream()
                 .filter(h->h.getName().contains(arg))
                 .forEach(System.out::println);
+
+        System.out.println("Collection is filtered by name " + arg);
     }
 
     @Override

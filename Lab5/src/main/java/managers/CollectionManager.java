@@ -72,6 +72,7 @@ public class CollectionManager {
 
     public void reorder() {
         Collections.reverse(collection);
+        System.out.println("Collection is reordered");
     }
 
     public HumanBeing getById(long id) {

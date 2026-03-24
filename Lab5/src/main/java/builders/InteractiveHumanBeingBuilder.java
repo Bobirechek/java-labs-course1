@@ -1,6 +1,7 @@
 package builders;
 
 import managers.IdGenerator;
+import managers.ScriptManager;
 import models.*;
 
 import java.time.LocalDateTime;
@@ -8,10 +9,8 @@ import java.util.Scanner;
 
 public class InteractiveHumanBeingBuilder implements HumanBeingBuilder {
 
-    private final Scanner scanner;
-
-    public InteractiveHumanBeingBuilder(Scanner scanner) {
-        this.scanner = scanner;
+    private Scanner scanner() {
+        return ScriptManager.getScanner();
     }
 
     @Override
@@ -46,14 +45,19 @@ public class InteractiveHumanBeingBuilder implements HumanBeingBuilder {
 
         while (true) {
 
-            System.out.println("Enter name:");
+            if (!ScriptManager.isScriptMode())
+                System.out.println("Enter name:");
 
-            String input = scanner.nextLine().trim();
+            String input = scanner().nextLine().trim();
 
             if (input.isEmpty()) {
 
-                System.out.println("Error: name cannot be empty.");
+                String error = "Error: name cannot be empty.";
 
+                if (ScriptManager.isScriptMode())
+                    throw new IllegalArgumentException(error);
+
+                System.out.println(error);
                 continue;
             }
 
@@ -68,33 +72,43 @@ public class InteractiveHumanBeingBuilder implements HumanBeingBuilder {
 
         while (true) {
 
-            try {
-
+            if (!ScriptManager.isScriptMode())
                 System.out.println("Enter coordinate X:");
 
-                x = Long.parseLong(scanner.nextLine());
+            String input = scanner().nextLine();
 
+            try {
+                x = Long.parseLong(input);
                 break;
-
             } catch (NumberFormatException e) {
 
-                System.out.println("Error: X must be a long number.");
+                String error = "Error: X must be a long number.";
+
+                if (ScriptManager.isScriptMode())
+                    throw new IllegalArgumentException(error);
+
+                System.out.println(error);
             }
         }
 
         while (true) {
 
-            try {
-
+            if (!ScriptManager.isScriptMode())
                 System.out.println("Enter coordinate Y:");
 
-                y = Long.parseLong(scanner.nextLine());
+            String input = scanner().nextLine();
 
+            try {
+                y = Long.parseLong(input);
                 break;
-
             } catch (NumberFormatException e) {
 
-                System.out.println("Error: Y must be a long number.");
+                String error = "Error: Y must be a long number.";
+
+                if (ScriptManager.isScriptMode())
+                    throw new IllegalArgumentException(error);
+
+                System.out.println(error);
             }
         }
 
@@ -105,16 +119,20 @@ public class InteractiveHumanBeingBuilder implements HumanBeingBuilder {
 
         while (true) {
 
-            System.out.println("Enter realHero (true/false):");
+            if (!ScriptManager.isScriptMode())
+                System.out.println("Enter realHero (true/false):");
 
-            String input = scanner.nextLine().trim();
+            String input = scanner().nextLine().trim();
 
-            if (input.equalsIgnoreCase("true") || input.equalsIgnoreCase("false")) {
-
+            if (input.equalsIgnoreCase("true") || input.equalsIgnoreCase("false"))
                 return Boolean.parseBoolean(input);
-            }
 
-            System.out.println("Error: Only true or false values are allowed..");
+            String error = "Error: realHero must be true or false.";
+
+            if (ScriptManager.isScriptMode())
+                throw new IllegalArgumentException(error);
+
+            System.out.println(error);
         }
     }
 
@@ -122,21 +140,23 @@ public class InteractiveHumanBeingBuilder implements HumanBeingBuilder {
 
         while (true) {
 
-            System.out.println("Enter hasToothpick (true/false) or nothing:");
+            if (!ScriptManager.isScriptMode())
+                System.out.println("Enter hasToothpick (true/false) or empty:");
 
-            String input = scanner.nextLine().trim();
+            String input = scanner().nextLine().trim();
 
-            if (input.isEmpty()) {
-
+            if (input.isEmpty())
                 return null;
-            }
 
-            if (input.equalsIgnoreCase("true") || input.equalsIgnoreCase("false")) {
-
+            if (input.equalsIgnoreCase("true") || input.equalsIgnoreCase("false"))
                 return Boolean.parseBoolean(input);
-            }
 
-            System.out.println("Error: valid values are true/false or nothing..");
+            String error = "Error: hasToothpick must be true/false or empty.";
+
+            if (ScriptManager.isScriptMode())
+                throw new IllegalArgumentException(error);
+
+            System.out.println(error);
         }
     }
 
@@ -144,24 +164,26 @@ public class InteractiveHumanBeingBuilder implements HumanBeingBuilder {
 
         while (true) {
 
-            try {
-
+            if (!ScriptManager.isScriptMode())
                 System.out.println("Enter impactSpeed (<=597):");
 
-                double value = Double.parseDouble(scanner.nextLine());
+            String input = scanner().nextLine();
 
-                if (value > 597) {
+            try {
 
-                    System.out.println("Errror: impactSpeed can't be more than 597.");
+                double value = Double.parseDouble(input);
 
-                    continue;
-                }
+                if (value > 597)
+                    throw new IllegalArgumentException("Error: impactSpeed must be <= 597");
 
                 return value;
 
-            } catch (NumberFormatException e) {
+            } catch (Exception e) {
 
-                System.out.println("Ошибка: impactSpeed must be a number.");
+                if (ScriptManager.isScriptMode())
+                    throw new IllegalArgumentException(e.getMessage());
+
+                System.out.println(e.getMessage());
             }
         }
     }
@@ -170,14 +192,19 @@ public class InteractiveHumanBeingBuilder implements HumanBeingBuilder {
 
         while (true) {
 
-            System.out.println("Enter soundtrackName:");
+            if (!ScriptManager.isScriptMode())
+                System.out.println("Enter soundtrackName:");
 
-            String input = scanner.nextLine().trim();
+            String input = scanner().nextLine().trim();
 
             if (input.isEmpty()) {
 
-                System.out.println("Error: soundtrackName can't be empty.");
+                String error = "Error: soundtrackName cannot be empty.";
 
+                if (ScriptManager.isScriptMode())
+                    throw new IllegalArgumentException(error);
+
+                System.out.println(error);
                 continue;
             }
 
@@ -189,27 +216,29 @@ public class InteractiveHumanBeingBuilder implements HumanBeingBuilder {
 
         while (true) {
 
-            System.out.println("Enter WeaponType or nothing:");
+            if (!ScriptManager.isScriptMode()) {
 
-            for (WeaponType w : WeaponType.values()) {
+                System.out.println("Enter WeaponType or empty:");
 
-                System.out.println(" - " + w);
+                for (WeaponType w : WeaponType.values())
+                    System.out.println(" - " + w);
             }
 
-            String input = scanner.nextLine().trim();
+            String input = scanner().nextLine().trim();
 
-            if (input.isEmpty()) {
-
+            if (input.isEmpty())
                 return null;
-            }
 
             try {
-
                 return WeaponType.valueOf(input);
+            } catch (Exception e) {
 
-            } catch (IllegalArgumentException e) {
+                String error = "Error: invalid WeaponType.";
 
-                System.out.println("Error: such a WeaponType does not exist.");
+                if (ScriptManager.isScriptMode())
+                    throw new IllegalArgumentException(error);
+
+                System.out.println(error);
             }
         }
     }
@@ -218,65 +247,68 @@ public class InteractiveHumanBeingBuilder implements HumanBeingBuilder {
 
         while (true) {
 
-            System.out.println("Enter Mood or nothing:");
+            if (!ScriptManager.isScriptMode()) {
 
-            for (Mood m : Mood.values()) {
+                System.out.println("Enter Mood or empty:");
 
-                System.out.println(" - " + m);
+                for (Mood m : Mood.values())
+                    System.out.println(" - " + m);
             }
 
-            String input = scanner.nextLine().trim();
+            String input = scanner().nextLine().trim();
 
-            if (input.isEmpty()) {
-
+            if (input.isEmpty())
                 return null;
-            }
 
             try {
-
                 return Mood.valueOf(input);
+            } catch (Exception e) {
 
-            } catch (IllegalArgumentException e) {
+                String error = "Error: invalid Mood.";
 
-                System.out.println("Error: such a Mood does not exist.");
+                if (ScriptManager.isScriptMode())
+                    throw new IllegalArgumentException(error);
+
+                System.out.println(error);
             }
         }
     }
 
     private Car readCar() {
 
-        System.out.println("Enter Car name or nothing:");
+        if (!ScriptManager.isScriptMode())
+            System.out.println("Enter car name or empty:");
 
-        String name = scanner.nextLine().trim();
+        String name = scanner().nextLine().trim();
 
-        if (name.isEmpty()) {
-
+        if (name.isEmpty())
             return null;
-        }
 
         Boolean cool;
 
         while (true) {
 
-            System.out.println("Enter cool (true/false) or nothing:");
+            if (!ScriptManager.isScriptMode())
+                System.out.println("Enter cool (true/false) or empty:");
 
-            String input = scanner.nextLine().trim();
+            String input = scanner().nextLine().trim();
 
             if (input.isEmpty()) {
-
                 cool = null;
-
                 break;
             }
 
             if (input.equalsIgnoreCase("true") || input.equalsIgnoreCase("false")) {
-
                 cool = Boolean.parseBoolean(input);
-
                 break;
             }
 
-            System.out.println("Error: Cool must be true/false or nothing.");
+            String error = "Error: cool must be true/false or empty.";
+
+            if (ScriptManager.isScriptMode())
+                throw new IllegalArgumentException(error);
+
+            System.out.println(error);
         }
 
         return new Car(name, cool);

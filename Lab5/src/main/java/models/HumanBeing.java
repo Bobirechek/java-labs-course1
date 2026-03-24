@@ -61,8 +61,7 @@ public class HumanBeing implements Comparable<HumanBeing> {
         }
     }
 
-    // ====== GETTERS ======
-
+    
     public Long getId(){ return id; }
 
     public String getName(){ return name; }
@@ -85,7 +84,6 @@ public class HumanBeing implements Comparable<HumanBeing> {
 
     public Car getCar(){ return car; }
 
-    // ====== SETTERS ======
 
     public void setId(long id) {
         this.id = id;
@@ -95,14 +93,10 @@ public class HumanBeing implements Comparable<HumanBeing> {
         this.creationDate = creationDate;
     }
 
-    // ====== SORTING ======
-
     @Override
     public int compareTo(HumanBeing o) {
         return name.compareTo(o.name);
     }
-
-    // ====== STRING OUTPUT ======
 
     @Override
     public String toString() {

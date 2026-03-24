@@ -16,6 +16,8 @@ public class SortCommand implements Command{
 
     public void execute(String arg){
         manager.sort();
+
+        System.out.println("Collection is sorted");
     }
 
     @Override

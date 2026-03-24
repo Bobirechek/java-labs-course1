@@ -3,7 +3,6 @@ import managers.*;
 import commands.*;
 import models.HumanBeing;
 import java.util.NoSuchElementException;
-import java.util.Scanner;
 
 public class Main {
 
@@ -31,10 +30,8 @@ public class Main {
         }
         IdGenerator.setCurrencyId(curId);
 
-        Scanner scanner = new Scanner(System.in);
-
         InteractiveHumanBeingBuilder builder =
-                new InteractiveHumanBeingBuilder(scanner);
+                new InteractiveHumanBeingBuilder();
 
         CommandManager commandManager = new CommandManager();
 
@@ -51,7 +48,7 @@ public class Main {
         commandManager.register(new FilterContainsNameCommand(collectionManager));
         commandManager.register(new InfoCommand(collectionManager));
         commandManager.register(new PrintFieldDescendingImpactSpeedCommand(collectionManager));
-        commandManager.register(new RemoveByIdCommand(collectionManager));
+        commandManager.register(new RemoveByIdCommand(collectionManager, fileManager));
         commandManager.register(new RemoveGreaterCommand(collectionManager, fileManager));
         commandManager.register(new ReorderCommand(collectionManager));
         commandManager.register(new SaveCommand(collectionManager, fileManager));
@@ -64,7 +61,7 @@ public class Main {
                 
                     System.out.print("> ");
 
-                    String line = scanner.nextLine();
+                    String line = ScriptManager.getScanner().nextLine();
 
                     String[] parts = line.split(" ", 2);
 

@@ -6,8 +6,6 @@ import managers.FileManager;
 import managers.JsonManager;
 import models.HumanBeing;
 
-import java.util.Scanner;
-
 public class RemoveGreaterCommand extends AbstractCommand {
 
     private final CollectionManager manager;
@@ -32,9 +30,8 @@ public class RemoveGreaterCommand extends AbstractCommand {
 
         } else {
 
-            Scanner scanner = new Scanner(System.in);
             InteractiveHumanBeingBuilder builder =
-                    new InteractiveHumanBeingBuilder(scanner);
+                    new InteractiveHumanBeingBuilder();
 
             reference = builder.build();
         }
