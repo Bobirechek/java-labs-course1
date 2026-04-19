@@ -10,7 +10,7 @@ public class UpdateCommand extends AbstractCommand {
 
     public UpdateCommand(CollectionManager manager) {
 
-        super("update", "update id {element} : update the value of a collection item by id");
+        super("update id {element}", "update the value of a collection item by id");
 
         this.manager = manager;
     }

@@ -7,7 +7,7 @@ public class SortCommand extends AbstractCommand {
     private CollectionManager manager;
 
     public SortCommand(CollectionManager manager) {
-        super("sort", "отсортировать коллекцию в естественном порядке");
+        super("sort", "sort the collection in a natural order");
         this.manager = manager;
     }
 
@@ -24,6 +24,6 @@ public class SortCommand extends AbstractCommand {
 
     @Override
     public String getDescription() {
-        return "sort : sort the collection in a natural order";
+        return "sort the collection in a natural order";
     }
 }

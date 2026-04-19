@@ -10,7 +10,7 @@ public class RemoveByIdCommand extends AbstractCommand {
 
     public RemoveByIdCommand(CollectionManager manager, FileManager fileManager) {
 
-        super("remove_by_id", "remove_by_id id : delete an item from the collection by its id");
+        super("remove_by_id id", "delete an item from the collection by its id");
 
         this.manager = manager;
         this.fileManager = fileManager;

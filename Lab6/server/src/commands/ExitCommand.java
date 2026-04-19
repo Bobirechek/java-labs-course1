@@ -3,7 +3,7 @@ package commands;
 public class ExitCommand extends AbstractCommand {
 
     public ExitCommand() {
-        super("exit", "завершить программу");
+        super("exit", "exiting the program without saving to a file");
     }
 
     public String getName() {
@@ -20,6 +20,6 @@ public class ExitCommand extends AbstractCommand {
 
     @Override
     public String getDescription() {
-        return "exit : exiting the program without saving to a file";
+        return "exiting the program without saving to a file";
     }
 }

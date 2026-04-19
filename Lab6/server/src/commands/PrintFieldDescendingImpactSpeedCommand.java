@@ -9,7 +9,7 @@ public class PrintFieldDescendingImpactSpeedCommand extends AbstractCommand {
     private CollectionManager manager;
 
     public PrintFieldDescendingImpactSpeedCommand(CollectionManager manager) {
-        super("print_field_descending_impact_speed ", "вывести значения поля impactSpeed всех элементов в порядке убывания");
+        super("print_field_descending_impact_speed ", "print the values of the impactSpeed field of all elements in descending order");
         this.manager = manager;
     }
 
@@ -31,6 +31,6 @@ public class PrintFieldDescendingImpactSpeedCommand extends AbstractCommand {
 
     @Override
     public String getDescription() {
-        return "print_field_descending_impact_speed : print the values of the impactSpeed field of all elements in descending order";
+        return "print the values of the impactSpeed field of all elements in descending order";
     }
 }

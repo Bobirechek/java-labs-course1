@@ -7,7 +7,7 @@ public class FilterContainsNameCommand extends AbstractCommand {
     private CollectionManager manager;
 
     public FilterContainsNameCommand(CollectionManager manager) {
-        super("clear", "очистить коллекцию");
+        super("filter_contains_name name", "output the elements whose name field value contains the specified substring");
         this.manager = manager;
     }
 
@@ -29,6 +29,6 @@ public class FilterContainsNameCommand extends AbstractCommand {
 
     @Override
     public String getDescription() {
-        return "filter_contains_name name : output the elements whose name field value contains the specified substring";
+        return "output the elements whose name field value contains the specified substring";
     }
 }

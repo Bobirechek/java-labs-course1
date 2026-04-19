@@ -7,7 +7,7 @@ public class ReorderCommand extends AbstractCommand {
     private CollectionManager manager;
 
     public ReorderCommand(CollectionManager manager) {
-        super("reorder", "отсортировать коллекцию в порядке, обратном нынешнему");
+        super("reorder", "sort the collection in the reverse order of the current one");
         this.manager = manager;
     }
 
@@ -23,6 +23,6 @@ public class ReorderCommand extends AbstractCommand {
 
     @Override
     public String getDescription() {
-        return "reorder : sort the collection in the reverse order of the current one";
+        return "sort the collection in the reverse order of the current one";
     }
 }

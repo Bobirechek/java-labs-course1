@@ -9,7 +9,7 @@ public class ShowCommand extends AbstractCommand {
     public ShowCommand(CollectionManager manager) {
 
         super("show",
-                "show : output all the elements of the collection in a string representation to the standard output stream");
+                "output all the elements of the collection in a string representation to the standard output stream");
 
         this.manager = manager;
     }

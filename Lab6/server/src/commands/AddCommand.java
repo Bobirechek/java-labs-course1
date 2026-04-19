@@ -9,7 +9,7 @@ public class AddCommand extends AbstractCommand {
     private final CollectionManager manager;
 
     public AddCommand(CollectionManager manager) {
-        super("add", "добавить элемент");
+        super("add {element} :", "add a new item to the collection");
         this.manager = manager;
     }
 
@@ -23,6 +23,6 @@ public class AddCommand extends AbstractCommand {
 
         manager.add(human);
 
-        return "Added";
+        return "Element successfully added.";
     }
 }

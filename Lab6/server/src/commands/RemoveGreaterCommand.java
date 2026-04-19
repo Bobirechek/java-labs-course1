@@ -12,8 +12,8 @@ public class RemoveGreaterCommand extends AbstractCommand {
 
     public RemoveGreaterCommand(CollectionManager manager, FileManager fileManager) {
 
-        super("remove_greater",
-                "remove_greater {element} : delete all items from the collection that exceed the specified size.");
+        super("remove_greater {element}",
+                "delete all items from the collection that exceed the specified size.");
 
         this.manager = manager;
         this.fileManager = fileManager;

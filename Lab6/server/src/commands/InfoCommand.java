@@ -7,7 +7,7 @@ public class InfoCommand extends AbstractCommand {
     private CollectionManager manager;
 
     public InfoCommand(CollectionManager manager) {
-        super("info", "вывести в стандартный поток вывода информацию о коллекции");
+        super("info", "output information about the collection to the standard output stream");
         this.manager = manager;
     }
 
@@ -23,6 +23,6 @@ public class InfoCommand extends AbstractCommand {
 
     @Override
     public String getDescription() {
-        return "info : output information about the collection to the standard output stream";
+        return "output information about the collection to the standard output stream";
     }
 }

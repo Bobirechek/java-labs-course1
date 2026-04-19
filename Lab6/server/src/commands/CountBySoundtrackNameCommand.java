@@ -8,8 +8,8 @@ public class CountBySoundtrackNameCommand extends AbstractCommand {
 
     public CountBySoundtrackNameCommand(CollectionManager manager) {
 
-        super("count_by_soundtrack_name",
-                "count_by_soundtrack_name soundtrackName : print the number of elements with the value of the soundtrackName field equal to the specified one");
+        super("count_by_soundtrack_name soundtrackName",
+                "print the number of elements with the value of the soundtrackName field equal to the specified one");
 
         this.manager = manager;
     }

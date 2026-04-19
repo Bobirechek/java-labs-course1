@@ -7,7 +7,7 @@ public class ClearCommand extends AbstractCommand {
     private CollectionManager manager;
 
     public ClearCommand(CollectionManager manager) {
-        super("clear", "очистить коллекцию");
+        super("clear", "clear collection");
         this.manager = manager;
     }
 
@@ -23,6 +23,6 @@ public class ClearCommand extends AbstractCommand {
 
     @Override
     public String getDescription() {
-        return "clear : clear collection";
+        return "clear collection";
     }
 }
