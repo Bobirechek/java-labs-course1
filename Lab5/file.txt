@@ -1,1 +1,2 @@
-update 2 {"name":"a","coordinates":{"x":1,"y":1},"impactSpeed":120.5,"soundtrackName":"aaaaa","weaponType":"HAMMER","mood":"CALM"}
+add {"name":"aa","coordinates":{"x":2,"y":2},"impactSpeed":120.5,"soundtrackName":"aaaaa","weaponType":"aaa","mood":"CALM"}
+show
