@@ -16,17 +16,13 @@ public class ShowCommand extends AbstractCommand {
 
     @Override
     public String execute(Object arg) {
-
         if (manager.getCollection().isEmpty()) {
-            System.out.println("Collection is empty");
+            return "Collection is empty";
         } else {
-            System.out.println(
-                    manager.getCollection()
+            return manager.getCollection()
                             .stream()
                             .map(Object::toString)
-                            .collect(java.util.stream.Collectors.joining("\n" + "=".repeat(45) + "\n")));
+                            .collect(java.util.stream.Collectors.joining("\n" + "=".repeat(45) + "\n"));
         }
-
-        return "show";
     }
 }

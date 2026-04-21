@@ -18,7 +18,7 @@ public class ReorderCommand extends AbstractCommand {
     @Override
     public String execute(Object arg) {
         manager.reorder();
-        return "reorder";
+        return "Collection is reordered";
     }
 
     @Override

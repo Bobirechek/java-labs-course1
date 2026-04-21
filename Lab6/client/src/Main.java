@@ -1,51 +1,95 @@
-import models.CommandType;
-import java.io.*;
-import java.net.Socket;
-import java.util.Scanner;
+import builders.InteractiveHumanBeingBuilder;
 import common.Command;
+import models.CommandType;
 import common.Response;
-import managers.JsonManager;
+import models.HumanBeing;
+
+import java.io.*;
+import java.net.*;
+import java.util.Collection;
+import java.util.Scanner;
 
 public class Main {
-
+    @SuppressWarnings("unchecked")
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
+            System.out.println("I predict that)");
+            System.out.println("Bye Bye");
+        }));
 
-        while (true) {
-            System.out.print("> ");
-            String input = scanner.nextLine();
+        try (DatagramSocket socket = new DatagramSocket();
+             Scanner scanner = new Scanner(System.in)) {
 
-            try {
-                Socket socket = new Socket("localhost", 5555);
+            socket.setSoTimeout(2500);
+            InetAddress address = InetAddress.getByName("localhost");
+            int port = 5555;
 
-                BufferedWriter out = new BufferedWriter(
-                        new OutputStreamWriter(socket.getOutputStream()));
-                BufferedReader in = new BufferedReader(
-                        new InputStreamReader(socket.getInputStream()));
+            while (true) {
+                System.out.print("> ");
+                if (!scanner.hasNextLine()) break;
+                String input = scanner.nextLine().trim();
+                if (input.isEmpty()) continue;
 
-                // 🔥 пока простой парсинг
-                String[] parts = input.split(" ", 2);
-                CommandType type = CommandType.valueOf(parts[0].toUpperCase());
-                String arg = parts.length > 1 ? parts[1] : null;
+                String[] parts = input.split("\\s+", 2);
+                String cmd = parts[0].toUpperCase();
+                String arg = (parts.length > 1) ? parts[1] : null;
 
-                Command command = new Command(type, arg);
+                Command command = null;
+                try {
+                    CommandType type = CommandType.valueOf(cmd);
+                    
+                    if (type == CommandType.ADD || type == CommandType.REMOVE_GREATER) {
+                        HumanBeing human = new InteractiveHumanBeingBuilder(scanner).build();
+                        command = new Command(type, null, human);
+                    } else if (type == CommandType.UPDATE) {
+                        if (arg == null) { System.out.println("You need to specify the ID"); continue; }
+                        Long id = Long.parseLong(arg);
+                        HumanBeing human = new InteractiveHumanBeingBuilder(scanner).build();
+                        command = new Command(type, id, human);
+                    } else if (arg != null) {
+                        // Если есть аргумент (например, ID для remove), делаем его Long объектом
+                        try {
+                            command = new Command(type, Long.parseLong(arg), null);
+                        } catch (NumberFormatException e) {
+                            command = new Command(type, arg, null); // Или String объектом, если это имя
+                        }
+                    } else {
+                        command = new Command(type, null, null);
+                    }
+                } catch (IllegalArgumentException e) {
+                    System.out.println("Unknown command"); continue;
+                }
 
-                String json = JsonManager.toJson(command);
+                // Отправка ОБЪЕКТА
+                ByteArrayOutputStream baos = new ByteArrayOutputStream();
+                ObjectOutputStream oos = new ObjectOutputStream(baos);
+                oos.writeObject(command);
+                byte[] data = baos.toByteArray();
+                socket.send(new DatagramPacket(data, data.length, address, port));
 
-                out.write(json);
-                out.newLine();
-                out.flush();
+                // Получение ОБЪЕКТА
+                try {
+                    byte[] buf = new byte[65536];
+                    DatagramPacket packet = new DatagramPacket(buf, buf.length);
+                    socket.receive(packet);
+                    ObjectInputStream ois = new ObjectInputStream(new ByteArrayInputStream(packet.getData()));
+                    Response response = (Response) ois.readObject();
 
-                String responseJson = in.readLine();
-                Response response = JsonManager.parseResponse(responseJson);
+                    System.out.println(response.getMessage());
 
-                System.out.println(response.getMessage());
-
-                socket.close();
-
-            } catch (Exception e) {
-                System.out.println("Error: " + e.getMessage());
+                    if (response.shouldExit()) System.exit(0);
+                    
+                    if (response.getData() instanceof Collection<?>) {
+                        ((Collection<HumanBeing>) response.getData()).forEach(System.out::println);
+                    }
+                    
+                } catch (SocketTimeoutException e) {
+                    System.out.println("Server is sleeping...");
+                }
             }
+            
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }

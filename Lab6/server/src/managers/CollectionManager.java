@@ -51,10 +51,10 @@ public class CollectionManager {
         return initializationDate;
     }
 
-    public void info() {
-        System.out.println("Collection type: " + collection.getClass().getName());
-        System.out.println("Initialization date: " + initializationDate);
-        System.out.println("Number of elements: " + collection.size());
+    public String info() {
+        return "Collection type: " + collection.getClass().getName() + 
+               "\nInitialization date: " + initializationDate + 
+               "\nNumber of elements: " + collection.size();
     }
 
     public boolean removeById(long id) {
@@ -74,7 +74,6 @@ public class CollectionManager {
     public void reorder() {
         Collections.sort(collection);
         Collections.reverse(collection);
-        System.out.println("Collection is reordered");
     }
 
     public HumanBeing getById(long id) {
@@ -94,7 +93,7 @@ public class CollectionManager {
         collection.removeIf(h -> h.compareTo(ref) > 0);
     }
 
-    public void update(models.HumanBeing newHuman) {
+    public void update(HumanBeing newHuman) {
         removeById(newHuman.getId());
         collection.add(newHuman);
     }
@@ -106,12 +105,13 @@ public class CollectionManager {
                 .count();
     }
 
-    // 🔥 И ЭТОГО ТОЖЕ
     public String filterContainsName(String name) {
-        return collection.stream()
+        String result = collection.stream()
                 .filter(h -> h.getName() != null)
                 .filter(h -> h.getName().contains(name))
                 .map(HumanBeing::toString)
-                .collect(Collectors.joining("\n"));
+                .collect(Collectors.joining("\n" + "=".repeat(45) + "\n"));
+        
+        return result.isEmpty() ? "No matches were found." : result;
     }
 }

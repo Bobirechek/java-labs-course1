@@ -17,8 +17,12 @@ public class CountBySoundtrackNameCommand extends AbstractCommand {
     @Override
     public String execute(Object arg) {
 
-        if (!(arg instanceof String) || ((String) arg).isEmpty()) {
-            return "Invalid argument";
+        if (!(arg instanceof String)) {
+            return "Invalid argument: soundtrackName must be String";
+        }
+
+        if (((String) arg).isEmpty()) {
+            return "Invalid argument: The soundtrackName cannot be null";
         }
 
         String name = (String) arg;

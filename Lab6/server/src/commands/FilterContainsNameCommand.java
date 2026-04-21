@@ -19,7 +19,7 @@ public class FilterContainsNameCommand extends AbstractCommand {
     public String execute(Object arg) {
 
         if (!(arg instanceof String)) {
-            return "Invalid argument";
+            return "Invalid argument: name must be String";
         }
 
         String name = (String) arg;

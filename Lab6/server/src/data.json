@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "id": 1,
+    "name": "1",
+    "coordinates": {
+      "x": 1,
+      "y": 1
+    },
+    "creationDate": "2026-04-21T13:04:33.198093800",
+    "realHero": true,
+    "impactSpeed": 1.0,
+    "soundtrackName": "a"
+  },
+  {
+    "id": 2,
+    "name": "bob",
+    "coordinates": {
+      "x": 1,
+      "y": 1
+    },
+    "creationDate": "2026-04-21T13:05:06.379460600",
+    "realHero": true,
+    "impactSpeed": 1.0,
+    "soundtrackName": "asd"
+  },
+  {
+    "id": 3,
+    "name": "bobobobobob",
+    "coordinates": {
+      "x": 1,
+      "y": 1
+    },
+    "creationDate": "2026-04-21T13:05:34.151003600",
+    "realHero": true,
+    "impactSpeed": 1.0,
+    "soundtrackName": "a"
+  }
+]

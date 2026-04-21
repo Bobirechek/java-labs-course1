@@ -17,8 +17,8 @@ public class InfoCommand extends AbstractCommand {
 
     @Override
     public String execute(Object arg) {
-        manager.info();
-        return "info";
+        return "information about the collection:\n" +  
+               manager.info();
     }
 
     @Override

@@ -19,16 +19,16 @@ public class RemoveByIdCommand extends AbstractCommand {
     @Override
     public String execute(Object arg) {
 
-        if (!(arg instanceof String)) {
-            return "Invalid id";
+        if (!(arg instanceof Long)) {
+            return "Invalid Id: The Id must be Long";
         }
 
         try {
-            long id = Long.parseLong((String) arg);
+            long id = (Long) arg;
 
             boolean removed = manager.removeById(id);
 
-            return removed ? "Removed" : "Not found";
+            return removed ? "HumanBeing (id = " + id + ") is removed" : "Id not found";
 
         } catch (Exception e) {
             return "Invalid id format";

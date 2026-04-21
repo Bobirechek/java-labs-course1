@@ -1,25 +1,28 @@
 package commands;
 
+import managers.CollectionManager;
+import managers.FileManager;
+import common.Response;
+
 public class ExitCommand extends AbstractCommand {
 
-    public ExitCommand() {
-        super("exit", "exiting the program without saving to a file");
-    }
+    private final CollectionManager manager;
+    private final FileManager fileManager;
 
-    public String getName() {
-        return "exit";
+    public ExitCommand(CollectionManager manager, FileManager fileManager) {
+        super("exit", "save collection and exit client");
+        this.manager = manager;
+        this.fileManager = fileManager;
     }
 
     @Override
     public String execute(Object arg) {
-        System.out.println("Exit");
-        
-        System.exit(0);
-        return "exit";
+        return "EXIT_SIGNAL";
     }
 
-    @Override
-    public String getDescription() {
-        return "exiting the program without saving to a file";
-    }
+    // // 🔥 добавим отдельный метод для Response
+    // public Response executeWithResponse() {
+    //     fileManager.save(manager.getCollection());
+    //     return new Response("Client stopped by server", null, true);
+    // }
 }

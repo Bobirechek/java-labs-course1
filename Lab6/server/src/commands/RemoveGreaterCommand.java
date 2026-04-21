@@ -21,11 +21,11 @@ public class RemoveGreaterCommand extends AbstractCommand {
 
     @Override
     public String execute(Object arg) {
-        if (!(arg instanceof models.HumanBeing)) {
+        if (!(arg instanceof HumanBeing)) {
             return "Invalid argument";
         }
 
-        models.HumanBeing reference = (models.HumanBeing) arg;
+        HumanBeing reference = (HumanBeing) arg;
 
         manager.removeGreater(reference);
         return "Removed greater elements";

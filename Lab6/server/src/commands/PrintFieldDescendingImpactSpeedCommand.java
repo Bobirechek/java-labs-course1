@@ -19,14 +19,19 @@ public class PrintFieldDescendingImpactSpeedCommand extends AbstractCommand {
 
     @Override
     public String execute(Object arg) {
+        StringBuilder sb = new StringBuilder();
 
         manager.getCollection()
                 .stream()
                 .map(h -> h.getImpactSpeed())
                 .sorted(Comparator.reverseOrder())
-                .forEach(System.out::println);
-    
-        return "PrintFieldDescendingImpactSpeedCommand";
+                .forEach(speed -> sb.append(speed).append("\n"));
+
+        if (sb.length() > 0) {
+            sb.setLength(sb.length() - 1);
+        }
+        
+        return sb.toString();
     }
 
     @Override

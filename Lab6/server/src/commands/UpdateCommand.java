@@ -18,13 +18,21 @@ public class UpdateCommand extends AbstractCommand {
     @Override
     public String execute(Object arg) {
 
-        if (arg == null) return "No data";
+        if (!(arg instanceof Object[])) return "Invalid arguments";
+        
+        Object[] args = (Object[]) arg;
+        Long id = (Long) args[0];
+        HumanBeing newHuman = (HumanBeing) args[1];
 
-        HumanBeing newHuman = JsonManager.parseHuman((String) arg);
+        HumanBeing oldHuman = manager.getById(id);
 
+        if (oldHuman == null) return "Element with this ID not found - " + id;
+
+        newHuman.setId(id);
+        newHuman.setCreationDate(oldHuman.getCreationDate());
         manager.update(newHuman);
 
-        return "Updated";
+        return "Successfully updated";
     }
     
     // @Override

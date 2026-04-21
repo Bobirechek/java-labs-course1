@@ -45,6 +45,7 @@ public class FileManager {
         } catch (Exception e) {
 
             System.out.println("File upload error.");
+            System.out.println(e);
 
             return new Vector<>();
         }

@@ -1,7 +1,7 @@
 package commands;
 
 import managers.CollectionManager;
-import managers.JsonManager;
+import managers.IdGenerator;
 import models.HumanBeing;
 
 public class AddCommand extends AbstractCommand {
@@ -15,14 +15,15 @@ public class AddCommand extends AbstractCommand {
 
     @Override
     public String execute(Object arg) {
+        if (!(arg instanceof HumanBeing)) {
+            return "Invalid argument";
+        }
 
-        if (arg == null)
-            return "No data";
-
-        HumanBeing human = JsonManager.parseHuman((String) arg);
+        HumanBeing human = (HumanBeing) arg;
+        human.setId(IdGenerator.generateId());
 
         manager.add(human);
 
-        return "Element successfully added.";
+        return "Human added successfully";
     }
 }
