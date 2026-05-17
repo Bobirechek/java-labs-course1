@@ -1,0 +1,56 @@
+2026-05-17 23:59:08 [INFO] ServerMain - Server is running
+2026-05-18 00:14:09 [INFO] ServerMain - Starting the server
+2026-05-18 00:14:09 [INFO] ServerMain - The server is running on port 5555
+2026-05-18 00:14:09 [INFO] ServerMain - Collection is uploaded
+2026-05-18 00:14:09 [INFO] ServerMain - Server is running
+2026-05-18 00:14:13 [INFO] ServerMain - Server is shutting down
+2026-05-18 00:19:52 [INFO] ServerMain - Starting the server
+2026-05-18 00:19:52 [INFO] UdpServerModule - The UDP server listens on port 555 5555
+2026-05-18 00:19:52 [INFO] ServerMain - The server is running on port 5555
+2026-05-18 00:19:52 [INFO] ServerMain - Collection is uploaded
+2026-05-18 00:19:52 [INFO] ServerMain - Server is running
+2026-05-18 00:20:21 [INFO] UdpServerModule - New connection: /127.0.0.1:63753
+2026-05-18 00:20:21 [INFO] UdpServerModule - A request was received from /127.0.0.1:63753
+2026-05-18 00:20:21 [INFO] ServerMain - Command has been recieved INFO
+2026-05-18 00:20:21 [INFO] UdpServerModule - The response has been sent to the client /127.0.0.1:63753
+2026-05-18 00:20:21 [INFO] ServerMain - The response has been sent to the client
+2026-05-18 00:20:23 [INFO] UdpServerModule - New connection: /127.0.0.1:63753
+2026-05-18 00:20:23 [INFO] UdpServerModule - A request was received from /127.0.0.1:63753
+2026-05-18 00:20:23 [INFO] ServerMain - Command has been recieved HELP
+2026-05-18 00:20:23 [INFO] UdpServerModule - The response has been sent to the client /127.0.0.1:63753
+2026-05-18 00:20:23 [INFO] ServerMain - The response has been sent to the client
+2026-05-18 00:21:47 [INFO] UdpServerModule - New connection: /127.0.0.1:63753
+2026-05-18 00:21:47 [INFO] UdpServerModule - A request was received from /127.0.0.1:63753
+2026-05-18 00:21:47 [INFO] ServerMain - Command has been recieved EXIT
+2026-05-18 00:21:47 [INFO] UdpServerModule - The response has been sent to the client /127.0.0.1:63753
+2026-05-18 00:21:47 [INFO] ServerMain - The response has been sent to the client
+2026-05-18 00:22:02 [INFO] ServerMain - Server is shutting down
+2026-05-18 00:22:08 [INFO] ServerMain - Starting the server
+2026-05-18 00:22:08 [INFO] UdpServerModule - The UDP server listens on port 555 5555
+2026-05-18 00:22:08 [INFO] ServerMain - The server is running on port 5555
+2026-05-18 00:22:08 [INFO] ServerMain - Collection is uploaded
+2026-05-18 00:22:08 [INFO] ServerMain - Server is running
+2026-05-18 00:22:14 [INFO] ServerMain - Collection saved
+2026-05-18 00:22:14 [INFO] ServerMain - Exit by command
+2026-05-18 00:22:14 [INFO] ServerMain - Server is shutting down
+2026-05-18 00:22:14 [INFO] ServerMain - Collection saved
+2026-05-18 00:31:19 [INFO] ServerMain - Starting the server
+2026-05-18 00:31:19 [INFO] UdpServerModule - The UDP server listens on port 555 5555
+2026-05-18 00:31:19 [INFO] ServerMain - The server is running on port 5555
+2026-05-18 00:31:19 [INFO] ServerMain - Collection is uploaded
+2026-05-18 00:31:19 [INFO] ServerMain - Server is running
+2026-05-18 00:31:28 [INFO] UdpServerModule - New connection: /127.0.0.1:55739
+2026-05-18 00:31:28 [INFO] UdpServerModule - A request was received from /127.0.0.1:55739
+2026-05-18 00:31:28 [INFO] ServerMain - Command HELP has been recieved
+2026-05-18 00:31:28 [INFO] CommandManager - Executing the command HELP
+2026-05-18 00:31:28 [INFO] CommandManager - The HELP command is executed
+2026-05-18 00:31:28 [INFO] UdpServerModule - The response has been sent to the client /127.0.0.1:55739
+2026-05-18 00:31:28 [INFO] ServerMain - The response has been sent to the client
+2026-05-18 00:31:31 [INFO] UdpServerModule - New connection: /127.0.0.1:55739
+2026-05-18 00:31:31 [INFO] UdpServerModule - A request was received from /127.0.0.1:55739
+2026-05-18 00:31:31 [INFO] ServerMain - Command INFO has been recieved
+2026-05-18 00:31:31 [INFO] CommandManager - Executing the command INFO
+2026-05-18 00:31:31 [INFO] CommandManager - The INFO command is executed
+2026-05-18 00:31:31 [INFO] UdpServerModule - The response has been sent to the client /127.0.0.1:55739
+2026-05-18 00:31:31 [INFO] ServerMain - The response has been sent to the client
+2026-05-18 00:31:55 [INFO] ServerMain - Server is shutting down
