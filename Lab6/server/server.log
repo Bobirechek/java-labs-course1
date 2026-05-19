@@ -54,3 +54,20 @@
 2026-05-18 00:31:31 [INFO] UdpServerModule - The response has been sent to the client /127.0.0.1:55739
 2026-05-18 00:31:31 [INFO] ServerMain - The response has been sent to the client
 2026-05-18 00:31:55 [INFO] ServerMain - Server is shutting down
+2026-05-18 23:04:16 [INFO] ServerMain - Starting the server
+2026-05-18 23:04:16 [INFO] UdpServerModule - The UDP server listens on port 555 5555
+2026-05-18 23:04:16 [INFO] ServerMain - The server is running on port 5555
+2026-05-18 23:04:16 [INFO] ServerMain - Collection is uploaded
+2026-05-18 23:04:16 [INFO] ServerMain - Server is running
+2026-05-18 23:04:22 [INFO] ServerMain - Server is shutting down
+2026-05-18 23:05:16 [INFO] ServerMain - Starting the server
+2026-05-18 23:05:16 [INFO] UdpServerModule - The UDP server listens on port 5555
+2026-05-18 23:05:16 [INFO] ServerMain - The server is running on port 5555
+2026-05-18 23:05:16 [INFO] ServerMain - Collection is uploaded
+2026-05-18 23:05:16 [INFO] ServerMain - Server is running
+2026-05-18 23:05:20 [INFO] ServerMain - Server is shutting down
+2026-05-19 17:52:45 [INFO] ServerMain - Starting the server
+2026-05-19 17:52:45 [INFO] UdpServerModule - The UDP server listens on port 8888
+2026-05-19 17:52:45 [INFO] ServerMain - The server is running on port 8888
+2026-05-19 17:52:45 [INFO] ServerMain - Collection is uploaded
+2026-05-19 17:52:45 [INFO] ServerMain - Server is running

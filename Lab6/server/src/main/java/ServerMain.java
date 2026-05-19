@@ -21,8 +21,8 @@ public class ServerMain {
 
             logger.info("Starting the server");
 
-            UdpServerModule network = new UdpServerModule(5555);
-            logger.info("The server is running on port 5555");
+            UdpServerModule network = new UdpServerModule(8888);
+            logger.info("The server is running on port 8888");
 
             FileManager fileManager = new FileManager(file);
             CollectionManager collectionManager = new CollectionManager(fileManager.load());

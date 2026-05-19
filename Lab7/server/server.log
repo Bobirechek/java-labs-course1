@@ -1,0 +1,1000 @@
+2026-05-17 23:59:08 [INFO] ServerMain - Server is running
+2026-05-18 00:14:09 [INFO] ServerMain - Starting the server
+2026-05-18 00:14:09 [INFO] ServerMain - The server is running on port 5555
+2026-05-18 00:14:09 [INFO] ServerMain - Collection is uploaded
+2026-05-18 00:14:09 [INFO] ServerMain - Server is running
+2026-05-18 00:14:13 [INFO] ServerMain - Server is shutting down
+2026-05-18 00:19:52 [INFO] ServerMain - Starting the server
+2026-05-18 00:19:52 [INFO] UdpServerModule - The UDP server listens on port 555 5555
+2026-05-18 00:19:52 [INFO] ServerMain - The server is running on port 5555
+2026-05-18 00:19:52 [INFO] ServerMain - Collection is uploaded
+2026-05-18 00:19:52 [INFO] ServerMain - Server is running
+2026-05-18 00:20:21 [INFO] UdpServerModule - New connection: /127.0.0.1:63753
+2026-05-18 00:20:21 [INFO] UdpServerModule - A request was received from /127.0.0.1:63753
+2026-05-18 00:20:21 [INFO] ServerMain - Command has been recieved INFO
+2026-05-18 00:20:21 [INFO] UdpServerModule - The response has been sent to the client /127.0.0.1:63753
+2026-05-18 00:20:21 [INFO] ServerMain - The response has been sent to the client
+2026-05-18 00:20:23 [INFO] UdpServerModule - New connection: /127.0.0.1:63753
+2026-05-18 00:20:23 [INFO] UdpServerModule - A request was received from /127.0.0.1:63753
+2026-05-18 00:20:23 [INFO] ServerMain - Command has been recieved HELP
+2026-05-18 00:20:23 [INFO] UdpServerModule - The response has been sent to the client /127.0.0.1:63753
+2026-05-18 00:20:23 [INFO] ServerMain - The response has been sent to the client
+2026-05-18 00:21:47 [INFO] UdpServerModule - New connection: /127.0.0.1:63753
+2026-05-18 00:21:47 [INFO] UdpServerModule - A request was received from /127.0.0.1:63753
+2026-05-18 00:21:47 [INFO] ServerMain - Command has been recieved EXIT
+2026-05-18 00:21:47 [INFO] UdpServerModule - The response has been sent to the client /127.0.0.1:63753
+2026-05-18 00:21:47 [INFO] ServerMain - The response has been sent to the client
+2026-05-18 00:22:02 [INFO] ServerMain - Server is shutting down
+2026-05-18 00:22:08 [INFO] ServerMain - Starting the server
+2026-05-18 00:22:08 [INFO] UdpServerModule - The UDP server listens on port 555 5555
+2026-05-18 00:22:08 [INFO] ServerMain - The server is running on port 5555
+2026-05-18 00:22:08 [INFO] ServerMain - Collection is uploaded
+2026-05-18 00:22:08 [INFO] ServerMain - Server is running
+2026-05-18 00:22:14 [INFO] ServerMain - Collection saved
+2026-05-18 00:22:14 [INFO] ServerMain - Exit by command
+2026-05-18 00:22:14 [INFO] ServerMain - Server is shutting down
+2026-05-18 00:22:14 [INFO] ServerMain - Collection saved
+2026-05-18 00:31:19 [INFO] ServerMain - Starting the server
+2026-05-18 00:31:19 [INFO] UdpServerModule - The UDP server listens on port 555 5555
+2026-05-18 00:31:19 [INFO] ServerMain - The server is running on port 5555
+2026-05-18 00:31:19 [INFO] ServerMain - Collection is uploaded
+2026-05-18 00:31:19 [INFO] ServerMain - Server is running
+2026-05-18 00:31:28 [INFO] UdpServerModule - New connection: /127.0.0.1:55739
+2026-05-18 00:31:28 [INFO] UdpServerModule - A request was received from /127.0.0.1:55739
+2026-05-18 00:31:28 [INFO] ServerMain - Command HELP has been recieved
+2026-05-18 00:31:28 [INFO] CommandManager - Executing the command HELP
+2026-05-18 00:31:28 [INFO] CommandManager - The HELP command is executed
+2026-05-18 00:31:28 [INFO] UdpServerModule - The response has been sent to the client /127.0.0.1:55739
+2026-05-18 00:31:28 [INFO] ServerMain - The response has been sent to the client
+2026-05-18 00:31:31 [INFO] UdpServerModule - New connection: /127.0.0.1:55739
+2026-05-18 00:31:31 [INFO] UdpServerModule - A request was received from /127.0.0.1:55739
+2026-05-18 00:31:31 [INFO] ServerMain - Command INFO has been recieved
+2026-05-18 00:31:31 [INFO] CommandManager - Executing the command INFO
+2026-05-18 00:31:31 [INFO] CommandManager - The INFO command is executed
+2026-05-18 00:31:31 [INFO] UdpServerModule - The response has been sent to the client /127.0.0.1:55739
+2026-05-18 00:31:31 [INFO] ServerMain - The response has been sent to the client
+2026-05-18 00:31:55 [INFO] ServerMain - Server is shutting down
+2026-05-18 20:39:36 [INFO] ServerMain - === Lab7 Server starting ===
+2026-05-18 20:39:36 [INFO] ServerMain - DB: jdbc:postgresql://localhost:5432/studs  User: postgres
+2026-05-18 20:39:36 [INFO] ServerMain - Database schema initialized.
+2026-05-18 20:39:36 [INFO] ServerMain - Loaded 0 elements from DB into memory.
+2026-05-18 20:39:36 [INFO] UdpServerModule - UDP server listening on port 5555
+2026-05-18 20:39:36 [INFO] ServerMain - Server is running on port 5555.
+2026-05-18 20:39:36 [INFO] ServerMain - Entering main loop. Type 'exit' to stop the server.
+2026-05-18 20:40:08 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:58432
+2026-05-18 20:40:08 [INFO] ServerMain - Deserialized command: REGISTER from /127.0.0.1:58432
+2026-05-18 20:40:08 [INFO] CommandManager - New user registered: 'bobik'
+2026-05-18 20:40:08 [INFO] UdpServerModule - Response sent to /127.0.0.1:58432
+2026-05-18 20:40:18 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:58432
+2026-05-18 20:40:18 [INFO] ServerMain - Deserialized command: INFO from /127.0.0.1:58432
+2026-05-18 20:40:18 [INFO] CommandManager - Executing command INFO for user 'bobik'
+2026-05-18 20:40:18 [INFO] CommandManager - Command INFO done for 'bobik'
+2026-05-18 20:40:18 [INFO] UdpServerModule - Response sent to /127.0.0.1:58432
+2026-05-18 20:40:26 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:58432
+2026-05-18 20:40:26 [INFO] ServerMain - Deserialized command: HELP from /127.0.0.1:58432
+2026-05-18 20:40:26 [INFO] CommandManager - Executing command HELP for user 'bobik'
+2026-05-18 20:40:26 [INFO] CommandManager - Command HELP done for 'bobik'
+2026-05-18 20:40:26 [INFO] UdpServerModule - Response sent to /127.0.0.1:58432
+2026-05-18 20:40:54 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:58432
+2026-05-18 20:40:54 [INFO] ServerMain - Deserialized command: ADD from /127.0.0.1:58432
+2026-05-18 20:40:54 [INFO] CommandManager - Executing command ADD for user 'bobik'
+2026-05-18 20:40:54 [INFO] CommandManager - Command ADD done for 'bobik'
+2026-05-18 20:40:54 [INFO] UdpServerModule - Response sent to /127.0.0.1:58432
+2026-05-18 20:40:57 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:58432
+2026-05-18 20:40:57 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:58432
+2026-05-18 20:40:57 [INFO] CommandManager - Executing command SHOW for user 'bobik'
+2026-05-18 20:40:57 [INFO] CommandManager - Command SHOW done for 'bobik'
+2026-05-18 20:40:57 [INFO] UdpServerModule - Response sent to /127.0.0.1:58432
+2026-05-18 20:42:00 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:58432
+2026-05-18 20:42:00 [INFO] ServerMain - Deserialized command: EXIT from /127.0.0.1:58432
+2026-05-18 20:42:00 [INFO] CommandManager - Executing command EXIT for user 'bobik'
+2026-05-18 20:42:00 [INFO] CommandManager - Command EXIT done for 'bobik'
+2026-05-18 20:42:00 [INFO] UdpServerModule - Response sent to /127.0.0.1:58432
+2026-05-18 20:42:14 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:58050
+2026-05-18 20:42:14 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:58050
+2026-05-18 20:42:14 [INFO] CommandManager - User 'bobik' logged in
+2026-05-18 20:42:14 [INFO] UdpServerModule - Response sent to /127.0.0.1:58050
+2026-05-18 20:42:20 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:58050
+2026-05-18 20:42:20 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:58050
+2026-05-18 20:42:20 [INFO] CommandManager - Executing command SHOW for user 'bobik'
+2026-05-18 20:42:20 [INFO] CommandManager - Command SHOW done for 'bobik'
+2026-05-18 20:42:20 [INFO] UdpServerModule - Response sent to /127.0.0.1:58050
+2026-05-18 20:43:43 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:58050
+2026-05-18 20:43:43 [INFO] ServerMain - Deserialized command: HELP from /127.0.0.1:58050
+2026-05-18 20:43:43 [INFO] CommandManager - Executing command HELP for user 'bobik'
+2026-05-18 20:43:43 [INFO] CommandManager - Command HELP done for 'bobik'
+2026-05-18 20:43:43 [INFO] UdpServerModule - Response sent to /127.0.0.1:58050
+2026-05-18 20:44:35 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:58050
+2026-05-18 20:44:35 [INFO] ServerMain - Deserialized command: EXIT from /127.0.0.1:58050
+2026-05-18 20:44:35 [INFO] CommandManager - Executing command EXIT for user 'bobik'
+2026-05-18 20:44:35 [INFO] CommandManager - Command EXIT done for 'bobik'
+2026-05-18 20:44:35 [INFO] UdpServerModule - Response sent to /127.0.0.1:58050
+2026-05-18 20:44:47 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:54758
+2026-05-18 20:44:47 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:54758
+2026-05-18 20:44:47 [INFO] UdpServerModule - Response sent to /127.0.0.1:54758
+2026-05-18 20:45:51 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:54758
+2026-05-18 20:45:51 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:54758
+2026-05-18 20:45:51 [INFO] UdpServerModule - Response sent to /127.0.0.1:54758
+2026-05-18 20:46:15 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:54758
+2026-05-18 20:46:15 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:54758
+2026-05-18 20:46:15 [INFO] UdpServerModule - Response sent to /127.0.0.1:54758
+2026-05-18 20:46:20 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:54758
+2026-05-18 20:46:20 [INFO] ServerMain - Deserialized command: REGISTER from /127.0.0.1:54758
+2026-05-18 20:46:20 [INFO] CommandManager - New user registered: 'bob'
+2026-05-18 20:46:20 [INFO] UdpServerModule - Response sent to /127.0.0.1:54758
+2026-05-18 20:46:25 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:54758
+2026-05-18 20:46:25 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:54758
+2026-05-18 20:46:25 [INFO] CommandManager - Executing command SHOW for user 'bob'
+2026-05-18 20:46:25 [INFO] CommandManager - Command SHOW done for 'bob'
+2026-05-18 20:46:25 [INFO] UdpServerModule - Response sent to /127.0.0.1:54758
+2026-05-18 20:47:04 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:54758
+2026-05-18 20:47:04 [INFO] ServerMain - Deserialized command: UPDATE from /127.0.0.1:54758
+2026-05-18 20:47:04 [INFO] CommandManager - Executing command UPDATE for user 'bob'
+2026-05-18 20:47:04 [INFO] CommandManager - Command UPDATE done for 'bob'
+2026-05-18 20:47:04 [INFO] UdpServerModule - Response sent to /127.0.0.1:54758
+2026-05-18 20:47:11 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:54758
+2026-05-18 20:47:11 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:54758
+2026-05-18 20:47:11 [INFO] CommandManager - Executing command SHOW for user 'bob'
+2026-05-18 20:47:11 [INFO] CommandManager - Command SHOW done for 'bob'
+2026-05-18 20:47:11 [INFO] UdpServerModule - Response sent to /127.0.0.1:54758
+2026-05-18 20:47:30 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:51299
+2026-05-18 20:47:30 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:51299
+2026-05-18 20:47:30 [INFO] CommandManager - User 'bobik' logged in
+2026-05-18 20:47:30 [INFO] UdpServerModule - Response sent to /127.0.0.1:51299
+2026-05-18 20:47:32 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:51299
+2026-05-18 20:47:32 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:51299
+2026-05-18 20:47:32 [INFO] CommandManager - Executing command SHOW for user 'bobik'
+2026-05-18 20:47:32 [INFO] CommandManager - Command SHOW done for 'bobik'
+2026-05-18 20:47:32 [INFO] UdpServerModule - Response sent to /127.0.0.1:51299
+2026-05-18 20:47:47 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:51299
+2026-05-18 20:47:47 [INFO] ServerMain - Deserialized command: UPDATE from /127.0.0.1:51299
+2026-05-18 20:47:47 [INFO] CommandManager - Executing command UPDATE for user 'bobik'
+2026-05-18 20:47:47 [INFO] CommandManager - Command UPDATE done for 'bobik'
+2026-05-18 20:47:47 [INFO] UdpServerModule - Response sent to /127.0.0.1:51299
+2026-05-18 20:47:52 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:51299
+2026-05-18 20:47:52 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:51299
+2026-05-18 20:47:52 [INFO] CommandManager - Executing command SHOW for user 'bobik'
+2026-05-18 20:47:52 [INFO] CommandManager - Command SHOW done for 'bobik'
+2026-05-18 20:47:52 [INFO] UdpServerModule - Response sent to /127.0.0.1:51299
+2026-05-18 21:05:18 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:51299
+2026-05-18 21:05:18 [INFO] ServerMain - Deserialized command: ADD from /127.0.0.1:51299
+2026-05-18 21:05:18 [INFO] CommandManager - Executing command ADD for user 'bobik'
+2026-05-18 21:05:18 [INFO] CommandManager - Command ADD done for 'bobik'
+2026-05-18 21:05:18 [INFO] UdpServerModule - Response sent to /127.0.0.1:51299
+2026-05-18 21:05:20 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:51299
+2026-05-18 21:05:20 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:51299
+2026-05-18 21:05:20 [INFO] CommandManager - Executing command SHOW for user 'bobik'
+2026-05-18 21:05:20 [INFO] CommandManager - Command SHOW done for 'bobik'
+2026-05-18 21:05:20 [INFO] UdpServerModule - Response sent to /127.0.0.1:51299
+2026-05-18 21:06:43 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:51299
+2026-05-18 21:06:43 [INFO] ServerMain - Deserialized command: HELP from /127.0.0.1:51299
+2026-05-18 21:06:43 [INFO] CommandManager - Executing command HELP for user 'bobik'
+2026-05-18 21:06:43 [INFO] CommandManager - Command HELP done for 'bobik'
+2026-05-18 21:06:43 [INFO] UdpServerModule - Response sent to /127.0.0.1:51299
+2026-05-18 21:07:22 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:51299
+2026-05-18 21:07:22 [INFO] ServerMain - Deserialized command: REMOVE_BY_ID from /127.0.0.1:51299
+2026-05-18 21:07:22 [INFO] CommandManager - Executing command REMOVE_BY_ID for user 'bobik'
+2026-05-18 21:07:22 [INFO] CommandManager - Command REMOVE_BY_ID done for 'bobik'
+2026-05-18 21:07:22 [INFO] UdpServerModule - Response sent to /127.0.0.1:51299
+2026-05-18 21:07:39 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:51299
+2026-05-18 21:07:39 [INFO] ServerMain - Deserialized command: ADD from /127.0.0.1:51299
+2026-05-18 21:07:39 [INFO] CommandManager - Executing command ADD for user 'bobik'
+2026-05-18 21:07:39 [INFO] CommandManager - Command ADD done for 'bobik'
+2026-05-18 21:07:39 [INFO] UdpServerModule - Response sent to /127.0.0.1:51299
+2026-05-18 21:07:47 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:51299
+2026-05-18 21:07:47 [INFO] ServerMain - Deserialized command: REMOVE_BY_ID from /127.0.0.1:51299
+2026-05-18 21:07:48 [INFO] CommandManager - Executing command REMOVE_BY_ID for user 'bobik'
+2026-05-18 21:07:48 [INFO] CommandManager - Command REMOVE_BY_ID done for 'bobik'
+2026-05-18 21:07:48 [INFO] UdpServerModule - Response sent to /127.0.0.1:51299
+2026-05-18 21:07:58 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:51299
+2026-05-18 21:07:58 [INFO] ServerMain - Deserialized command: REMOVE_BY_ID from /127.0.0.1:51299
+2026-05-18 21:07:58 [INFO] CommandManager - Executing command REMOVE_BY_ID for user 'bobik'
+2026-05-18 21:07:58 [INFO] CommandManager - Command REMOVE_BY_ID done for 'bobik'
+2026-05-18 21:07:58 [INFO] UdpServerModule - Response sent to /127.0.0.1:51299
+2026-05-18 21:08:10 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:51299
+2026-05-18 21:08:10 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:51299
+2026-05-18 21:08:10 [INFO] CommandManager - Executing command SHOW for user 'bobik'
+2026-05-18 21:08:10 [INFO] CommandManager - Command SHOW done for 'bobik'
+2026-05-18 21:08:10 [INFO] UdpServerModule - Response sent to /127.0.0.1:51299
+2026-05-18 22:53:33 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:51299
+2026-05-18 22:53:33 [INFO] ServerMain - Deserialized command: HELP from /127.0.0.1:51299
+2026-05-18 22:53:33 [INFO] CommandManager - Executing command HELP for user 'bobik'
+2026-05-18 22:53:33 [INFO] CommandManager - Command HELP done for 'bobik'
+2026-05-18 22:53:33 [INFO] UdpServerModule - Response sent to /127.0.0.1:51299
+2026-05-18 23:17:55 [INFO] ServerMain - === Lab7 Server starting ===
+2026-05-18 23:17:55 [INFO] ServerMain - DB: jdbc:postgresql://localhost:5432/studs  User: postgres
+2026-05-18 23:17:55 [INFO] ServerMain - Database schema initialized.
+2026-05-18 23:17:55 [INFO] ServerMain - Loaded 1 elements from DB into memory.
+2026-05-18 23:17:55 [INFO] UdpServerModule - UDP server listening on port 5555
+2026-05-18 23:17:55 [INFO] ServerMain - Server is running on port 5555.
+2026-05-18 23:17:55 [INFO] ServerMain - Entering main loop. Type 'exit' to stop the server.
+2026-05-18 23:18:04 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:51299
+2026-05-18 23:18:04 [INFO] ServerMain - Deserialized command: INFO from /127.0.0.1:51299
+2026-05-18 23:18:04 [INFO] CommandManager - Executing command INFO for user 'bobik'
+2026-05-18 23:18:04 [INFO] CommandManager - Command INFO done for 'bobik'
+2026-05-18 23:18:04 [INFO] UdpServerModule - Response sent to /127.0.0.1:51299
+2026-05-18 23:18:07 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:51299
+2026-05-18 23:18:07 [INFO] ServerMain - Deserialized command: HELP from /127.0.0.1:51299
+2026-05-18 23:18:07 [INFO] CommandManager - Executing command HELP for user 'bobik'
+2026-05-18 23:18:07 [INFO] CommandManager - Command HELP done for 'bobik'
+2026-05-18 23:18:07 [INFO] UdpServerModule - Response sent to /127.0.0.1:51299
+2026-05-18 23:19:03 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:51299
+2026-05-18 23:19:03 [INFO] ServerMain - Deserialized command: INFO from /127.0.0.1:51299
+2026-05-18 23:19:03 [INFO] CommandManager - Executing command INFO for user 'bobik'
+2026-05-18 23:19:03 [INFO] CommandManager - Command INFO done for 'bobik'
+2026-05-18 23:19:03 [INFO] UdpServerModule - Response sent to /127.0.0.1:51299
+2026-05-18 23:19:05 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:51299
+2026-05-18 23:19:05 [INFO] ServerMain - Deserialized command: HELP from /127.0.0.1:51299
+2026-05-18 23:19:05 [INFO] CommandManager - Executing command HELP for user 'bobik'
+2026-05-18 23:19:05 [INFO] CommandManager - Command HELP done for 'bobik'
+2026-05-18 23:19:05 [INFO] UdpServerModule - Response sent to /127.0.0.1:51299
+2026-05-18 23:26:07 [INFO] ServerMain - === Lab7 Server starting ===
+2026-05-18 23:26:07 [INFO] ServerMain - DB: jdbc:postgresql://localhost:5432/studs  User: postgres
+2026-05-18 23:26:07 [INFO] ServerMain - Database schema initialized.
+2026-05-18 23:26:08 [INFO] ServerMain - Loaded 1 elements from DB into memory.
+2026-05-18 23:26:08 [INFO] UdpServerModule - UDP server listening on port 5555
+2026-05-18 23:26:08 [INFO] ServerMain - Server is running on port 5555.
+2026-05-18 23:26:08 [INFO] ServerMain - Entering main loop. Type 'exit' to stop the server.
+2026-05-18 23:26:17 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:51299
+2026-05-18 23:26:17 [INFO] ServerMain - Deserialized command: HELP from /127.0.0.1:51299
+2026-05-18 23:26:17 [INFO] CommandManager - Executing command HELP for user 'bobik'
+2026-05-18 23:26:17 [INFO] CommandManager - Command HELP done for 'bobik'
+2026-05-18 23:26:17 [INFO] UdpServerModule - Response sent to /127.0.0.1:51299
+2026-05-18 23:34:05 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:62508
+2026-05-18 23:34:05 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:62508
+2026-05-18 23:34:05 [INFO] UdpServerModule - Response sent to /127.0.0.1:62508
+2026-05-18 23:35:15 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:62508
+2026-05-18 23:35:15 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:62508
+2026-05-18 23:35:15 [INFO] CommandManager - User 'bobik' logged in
+2026-05-18 23:35:15 [INFO] UdpServerModule - Response sent to /127.0.0.1:62508
+2026-05-18 23:41:16 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60750
+2026-05-18 23:41:16 [INFO] ServerMain - Deserialized command: REGISTER from /127.0.0.1:60750
+2026-05-18 23:41:16 [INFO] CommandManager - New user registered: 'b'
+2026-05-18 23:41:16 [INFO] UdpServerModule - Response sent to /127.0.0.1:60750
+2026-05-18 23:41:27 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60750
+2026-05-18 23:41:27 [INFO] ServerMain - Deserialized command: EXIT from /127.0.0.1:60750
+2026-05-18 23:41:27 [INFO] CommandManager - Executing command EXIT for user 'b'
+2026-05-18 23:41:27 [INFO] CommandManager - Command EXIT done for 'b'
+2026-05-18 23:41:27 [INFO] UdpServerModule - Response sent to /127.0.0.1:60750
+2026-05-19 00:30:04 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:50620
+2026-05-19 00:30:04 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:50620
+2026-05-19 00:30:04 [INFO] UdpServerModule - Response sent to /127.0.0.1:50620
+2026-05-19 00:30:23 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:50620
+2026-05-19 00:30:23 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:50620
+2026-05-19 00:30:23 [INFO] CommandManager - User 'bobik' logged in
+2026-05-19 00:30:23 [INFO] UdpServerModule - Response sent to /127.0.0.1:50620
+2026-05-19 00:30:26 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:50620
+2026-05-19 00:30:26 [INFO] ServerMain - Deserialized command: HELP from /127.0.0.1:50620
+2026-05-19 00:30:26 [INFO] CommandManager - Executing command HELP for user 'bobik'
+2026-05-19 00:30:26 [INFO] CommandManager - Command HELP done for 'bobik'
+2026-05-19 00:30:26 [INFO] UdpServerModule - Response sent to /127.0.0.1:50620
+2026-05-19 00:37:27 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:54592
+2026-05-19 00:37:27 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:54592
+2026-05-19 00:37:27 [INFO] CommandManager - User 'bobik' logged in
+2026-05-19 00:37:27 [INFO] UdpServerModule - Response sent to /127.0.0.1:54592
+2026-05-19 00:42:05 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:58141
+2026-05-19 00:42:05 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:58141
+2026-05-19 00:42:05 [INFO] CommandManager - User 'bobik' logged in
+2026-05-19 00:42:05 [INFO] UdpServerModule - Response sent to /127.0.0.1:58141
+2026-05-19 00:42:18 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:58141
+2026-05-19 00:42:18 [INFO] ServerMain - Deserialized command: HELP from /127.0.0.1:58141
+2026-05-19 00:42:18 [INFO] CommandManager - Executing command HELP for user 'bobik'
+2026-05-19 00:42:18 [INFO] CommandManager - Command HELP done for 'bobik'
+2026-05-19 00:42:18 [INFO] UdpServerModule - Response sent to /127.0.0.1:58141
+2026-05-19 00:45:11 [INFO] ServerMain - === Lab7 Server starting ===
+2026-05-19 00:45:11 [INFO] ServerMain - DB: jdbc:postgresql://localhost:5432/studs  User: postgres
+2026-05-19 00:45:12 [INFO] ServerMain - Database schema initialized.
+2026-05-19 00:45:12 [INFO] ServerMain - Loaded 1 elements from DB into memory.
+2026-05-19 00:45:12 [INFO] UdpServerModule - UDP server listening on port 5555
+2026-05-19 00:45:12 [INFO] ServerMain - Server is running on port 5555.
+2026-05-19 00:45:12 [INFO] ServerMain - Entering main loop. Type 'exit' to stop the server.
+2026-05-19 00:45:34 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:55639
+2026-05-19 00:45:34 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:55639
+2026-05-19 00:45:34 [INFO] CommandManager - User 'bobik' logged in
+2026-05-19 00:45:34 [INFO] UdpServerModule - Response sent to /127.0.0.1:55639
+2026-05-19 00:45:47 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:55639
+2026-05-19 00:45:47 [INFO] ServerMain - Deserialized command: HELP from /127.0.0.1:55639
+2026-05-19 00:45:47 [INFO] CommandManager - Executing command HELP for user 'bobik'
+2026-05-19 00:45:47 [INFO] CommandManager - Command HELP done for 'bobik'
+2026-05-19 00:45:47 [INFO] UdpServerModule - Response sent to /127.0.0.1:55639
+2026-05-19 00:47:18 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:55639
+2026-05-19 00:47:18 [INFO] ServerMain - Deserialized command: REGISTER from /127.0.0.1:55639
+2026-05-19 00:47:19 [INFO] UdpServerModule - Response sent to /127.0.0.1:55639
+2026-05-19 00:47:51 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:55639
+2026-05-19 00:47:51 [INFO] ServerMain - Deserialized command: REGISTER from /127.0.0.1:55639
+2026-05-19 00:47:51 [INFO] CommandManager - New user registered: 'bb'
+2026-05-19 00:47:51 [INFO] UdpServerModule - Response sent to /127.0.0.1:55639
+2026-05-19 00:47:51 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:55639
+2026-05-19 00:47:51 [INFO] ServerMain - Deserialized command: LOGOUT from /127.0.0.1:55639
+2026-05-19 00:47:52 [WARN] CommandManager - Unknown command: LOGOUT
+2026-05-19 00:47:52 [INFO] UdpServerModule - Response sent to /127.0.0.1:55639
+2026-05-19 00:49:48 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:55639
+2026-05-19 00:49:48 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:55639
+2026-05-19 00:49:48 [INFO] CommandManager - User 'bb' logged in
+2026-05-19 00:49:48 [INFO] UdpServerModule - Response sent to /127.0.0.1:55639
+2026-05-19 00:49:48 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:55639
+2026-05-19 00:49:48 [INFO] ServerMain - Deserialized command: LOGOUT from /127.0.0.1:55639
+2026-05-19 00:49:48 [WARN] CommandManager - Unknown command: LOGOUT
+2026-05-19 00:49:48 [INFO] UdpServerModule - Response sent to /127.0.0.1:55639
+2026-05-19 00:50:52 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:65437
+2026-05-19 00:50:52 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:65437
+2026-05-19 00:50:52 [INFO] CommandManager - User 'bb' logged in
+2026-05-19 00:50:52 [INFO] UdpServerModule - Response sent to /127.0.0.1:65437
+2026-05-19 00:51:06 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:65437
+2026-05-19 00:51:06 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:65437
+2026-05-19 00:51:06 [INFO] CommandManager - User 'bobik' logged in
+2026-05-19 00:51:06 [INFO] UdpServerModule - Response sent to /127.0.0.1:65437
+2026-05-19 00:51:06 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:65437
+2026-05-19 00:51:06 [INFO] ServerMain - Deserialized command: LOGOUT from /127.0.0.1:65437
+2026-05-19 00:51:06 [WARN] CommandManager - Unknown command: LOGOUT
+2026-05-19 00:51:06 [INFO] UdpServerModule - Response sent to /127.0.0.1:65437
+2026-05-19 00:53:26 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:65415
+2026-05-19 00:53:26 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:65415
+2026-05-19 00:53:26 [INFO] CommandManager - User 'bobik' logged in
+2026-05-19 00:53:26 [INFO] UdpServerModule - Response sent to /127.0.0.1:65415
+2026-05-19 00:53:38 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:65415
+2026-05-19 00:53:38 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:65415
+2026-05-19 00:53:38 [INFO] CommandManager - User 'bb' logged in
+2026-05-19 00:53:38 [INFO] UdpServerModule - Response sent to /127.0.0.1:65415
+2026-05-19 00:54:51 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:65415
+2026-05-19 00:54:51 [INFO] ServerMain - Deserialized command: HELP from /127.0.0.1:65415
+2026-05-19 00:54:52 [INFO] CommandManager - Executing command HELP for user 'bb'
+2026-05-19 00:54:52 [INFO] CommandManager - Command HELP done for 'bb'
+2026-05-19 00:54:52 [INFO] UdpServerModule - Response sent to /127.0.0.1:65415
+2026-05-19 00:55:44 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:65415
+2026-05-19 00:55:44 [INFO] ServerMain - Deserialized command: CLEAR from /127.0.0.1:65415
+2026-05-19 00:55:44 [INFO] CommandManager - Executing command CLEAR for user 'bb'
+2026-05-19 00:55:44 [INFO] CommandManager - Command CLEAR done for 'bb'
+2026-05-19 00:55:44 [INFO] UdpServerModule - Response sent to /127.0.0.1:65415
+2026-05-19 00:55:58 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:65415
+2026-05-19 00:55:58 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:65415
+2026-05-19 00:55:58 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 00:55:58 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 00:55:58 [INFO] UdpServerModule - Response sent to /127.0.0.1:65415
+2026-05-19 01:04:52 [INFO] ServerMain - === Lab7 Server starting ===
+2026-05-19 01:04:52 [INFO] ServerMain - DB: jdbc:postgresql://localhost:5432/studs  User: postgres
+2026-05-19 01:04:52 [INFO] ServerMain - Database schema initialized.
+2026-05-19 01:04:52 [INFO] ServerMain - Loaded 1 elements from DB into memory.
+2026-05-19 01:04:52 [INFO] UdpServerModule - UDP server listening on port 5555
+2026-05-19 01:04:52 [INFO] ServerMain - Server is running on port 5555.
+2026-05-19 01:04:52 [INFO] ServerMain - Entering main loop. Type 'exit' to stop the server.
+2026-05-19 01:06:23 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:06:23 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:52465
+2026-05-19 01:06:23 [INFO] CommandManager - User 'bb' logged in
+2026-05-19 01:06:23 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:06:25 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:06:25 [INFO] ServerMain - Deserialized command: HELP from /127.0.0.1:52465
+2026-05-19 01:06:25 [INFO] CommandManager - Executing command HELP for user 'bb'
+2026-05-19 01:06:25 [INFO] CommandManager - Command HELP done for 'bb'
+2026-05-19 01:06:25 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:06:59 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:06:59 [INFO] ServerMain - Deserialized command: ADD from /127.0.0.1:52465
+2026-05-19 01:06:59 [INFO] CommandManager - Executing command ADD for user 'bb'
+2026-05-19 01:06:59 [INFO] CommandManager - Command ADD done for 'bb'
+2026-05-19 01:06:59 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:07:04 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:07:04 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:52465
+2026-05-19 01:07:04 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 01:07:04 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 01:07:04 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:10:11 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:10:11 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:52465
+2026-05-19 01:10:11 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 01:10:11 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 01:10:11 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:10:15 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:10:15 [INFO] ServerMain - Deserialized command: HELP from /127.0.0.1:52465
+2026-05-19 01:10:15 [INFO] CommandManager - Executing command HELP for user 'bb'
+2026-05-19 01:10:15 [INFO] CommandManager - Command HELP done for 'bb'
+2026-05-19 01:10:15 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:10:52 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:10:52 [INFO] ServerMain - Deserialized command: UPDATE from /127.0.0.1:52465
+2026-05-19 01:10:52 [INFO] CommandManager - Executing command UPDATE for user 'bb'
+2026-05-19 01:10:53 [INFO] CommandManager - Command UPDATE done for 'bb'
+2026-05-19 01:10:53 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:10:58 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:10:58 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:52465
+2026-05-19 01:10:58 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 01:10:58 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 01:10:58 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:11:43 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:11:43 [INFO] ServerMain - Deserialized command: UPDATE from /127.0.0.1:52465
+2026-05-19 01:11:43 [INFO] CommandManager - Executing command UPDATE for user 'bb'
+2026-05-19 01:11:43 [INFO] CommandManager - Command UPDATE done for 'bb'
+2026-05-19 01:11:43 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:13:25 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:13:25 [INFO] ServerMain - Deserialized command: SORT from /127.0.0.1:52465
+2026-05-19 01:13:25 [INFO] CommandManager - Executing command SORT for user 'bb'
+2026-05-19 01:13:25 [INFO] CommandManager - Command SORT done for 'bb'
+2026-05-19 01:13:25 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:13:28 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:13:28 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:52465
+2026-05-19 01:13:29 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 01:13:29 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 01:13:29 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:13:41 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:13:41 [INFO] ServerMain - Deserialized command: REORDER from /127.0.0.1:52465
+2026-05-19 01:13:41 [INFO] CommandManager - Executing command REORDER for user 'bb'
+2026-05-19 01:13:41 [INFO] CommandManager - Command REORDER done for 'bb'
+2026-05-19 01:13:41 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:13:44 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:13:44 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:52465
+2026-05-19 01:13:44 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 01:13:44 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 01:13:44 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:14:02 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:14:02 [INFO] ServerMain - Deserialized command: ADD from /127.0.0.1:52465
+2026-05-19 01:14:02 [INFO] CommandManager - Executing command ADD for user 'bb'
+2026-05-19 01:14:02 [INFO] CommandManager - Command ADD done for 'bb'
+2026-05-19 01:14:02 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:14:04 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:14:04 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:52465
+2026-05-19 01:14:04 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 01:14:04 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 01:14:04 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:14:08 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:14:08 [INFO] ServerMain - Deserialized command: SORT from /127.0.0.1:52465
+2026-05-19 01:14:08 [INFO] CommandManager - Executing command SORT for user 'bb'
+2026-05-19 01:14:08 [INFO] CommandManager - Command SORT done for 'bb'
+2026-05-19 01:14:08 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:14:10 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:14:10 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:52465
+2026-05-19 01:14:10 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 01:14:10 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 01:14:10 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:14:14 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:14:14 [INFO] ServerMain - Deserialized command: REORDER from /127.0.0.1:52465
+2026-05-19 01:14:14 [INFO] CommandManager - Executing command REORDER for user 'bb'
+2026-05-19 01:14:14 [INFO] CommandManager - Command REORDER done for 'bb'
+2026-05-19 01:14:14 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:14:15 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:14:15 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:52465
+2026-05-19 01:14:15 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 01:14:15 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 01:14:15 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:14:22 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:14:22 [INFO] ServerMain - Deserialized command: SORT from /127.0.0.1:52465
+2026-05-19 01:14:22 [INFO] CommandManager - Executing command SORT for user 'bb'
+2026-05-19 01:14:22 [INFO] CommandManager - Command SORT done for 'bb'
+2026-05-19 01:14:22 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:14:25 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:14:25 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:52465
+2026-05-19 01:14:25 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 01:14:25 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 01:14:25 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:14:32 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:14:32 [INFO] ServerMain - Deserialized command: REORDER from /127.0.0.1:52465
+2026-05-19 01:14:32 [INFO] CommandManager - Executing command REORDER for user 'bb'
+2026-05-19 01:14:32 [INFO] CommandManager - Command REORDER done for 'bb'
+2026-05-19 01:14:32 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:14:37 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:14:37 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:52465
+2026-05-19 01:14:37 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 01:14:37 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 01:14:37 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:15:07 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:15:07 [INFO] ServerMain - Deserialized command: CLEAR from /127.0.0.1:52465
+2026-05-19 01:15:07 [INFO] CommandManager - Executing command CLEAR for user 'bb'
+2026-05-19 01:15:07 [INFO] CommandManager - Command CLEAR done for 'bb'
+2026-05-19 01:15:07 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:15:16 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:15:16 [INFO] ServerMain - Deserialized command: HELP from /127.0.0.1:52465
+2026-05-19 01:15:16 [INFO] CommandManager - Executing command HELP for user 'bb'
+2026-05-19 01:15:16 [INFO] CommandManager - Command HELP done for 'bb'
+2026-05-19 01:15:16 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:16:01 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:16:01 [INFO] ServerMain - Deserialized command: ADD from /127.0.0.1:52465
+2026-05-19 01:16:01 [INFO] CommandManager - Executing command ADD for user 'bb'
+2026-05-19 01:16:01 [INFO] CommandManager - Command ADD done for 'bb'
+2026-05-19 01:16:01 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:16:19 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:16:19 [INFO] ServerMain - Deserialized command: HELP from /127.0.0.1:52465
+2026-05-19 01:16:19 [INFO] CommandManager - Executing command HELP for user 'bb'
+2026-05-19 01:16:19 [INFO] CommandManager - Command HELP done for 'bb'
+2026-05-19 01:16:19 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:16:31 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:16:31 [INFO] ServerMain - Deserialized command: COUNT_BY_SOUNDTRACK_NAME from /127.0.0.1:52465
+2026-05-19 01:16:31 [INFO] CommandManager - Executing command COUNT_BY_SOUNDTRACK_NAME for user 'bb'
+2026-05-19 01:16:31 [INFO] CommandManager - Command COUNT_BY_SOUNDTRACK_NAME done for 'bb'
+2026-05-19 01:16:31 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:16:51 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:16:51 [INFO] ServerMain - Deserialized command: COUNT_BY_SOUNDTRACK_NAME from /127.0.0.1:52465
+2026-05-19 01:16:51 [INFO] CommandManager - Executing command COUNT_BY_SOUNDTRACK_NAME for user 'bb'
+2026-05-19 01:16:51 [INFO] CommandManager - Command COUNT_BY_SOUNDTRACK_NAME done for 'bb'
+2026-05-19 01:16:51 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:17:03 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:17:03 [INFO] ServerMain - Deserialized command: HELP from /127.0.0.1:52465
+2026-05-19 01:17:03 [INFO] CommandManager - Executing command HELP for user 'bb'
+2026-05-19 01:17:03 [INFO] CommandManager - Command HELP done for 'bb'
+2026-05-19 01:17:03 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:17:25 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:17:25 [INFO] ServerMain - Deserialized command: REMOVE_BY_ID from /127.0.0.1:52465
+2026-05-19 01:17:25 [INFO] CommandManager - Executing command REMOVE_BY_ID for user 'bb'
+2026-05-19 01:17:25 [INFO] CommandManager - Command REMOVE_BY_ID done for 'bb'
+2026-05-19 01:17:25 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:17:52 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:17:52 [INFO] ServerMain - Deserialized command: REMOVE_GREATER from /127.0.0.1:52465
+2026-05-19 01:17:52 [INFO] CommandManager - Executing command REMOVE_GREATER for user 'bb'
+2026-05-19 01:17:52 [INFO] CommandManager - Command REMOVE_GREATER done for 'bb'
+2026-05-19 01:17:52 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:17:58 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:17:58 [INFO] ServerMain - Deserialized command: HELP from /127.0.0.1:52465
+2026-05-19 01:17:58 [INFO] CommandManager - Executing command HELP for user 'bb'
+2026-05-19 01:17:58 [INFO] CommandManager - Command HELP done for 'bb'
+2026-05-19 01:17:58 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:19:43 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52465
+2026-05-19 01:19:43 [INFO] ServerMain - Deserialized command: EXIT from /127.0.0.1:52465
+2026-05-19 01:19:43 [INFO] CommandManager - Executing command EXIT for user 'bb'
+2026-05-19 01:19:43 [INFO] CommandManager - Command EXIT done for 'bb'
+2026-05-19 01:19:43 [INFO] UdpServerModule - Response sent to /127.0.0.1:52465
+2026-05-19 01:19:46 [INFO] ServerMain - Exit command received from console.
+2026-05-19 01:41:36 [INFO] ServerMain - === Lab7 Server starting ===
+2026-05-19 01:41:36 [INFO] ServerMain - DB: jdbc:postgresql://localhost:5432/studs  User: postgres
+2026-05-19 01:41:37 [INFO] ServerMain - Database schema initialized.
+2026-05-19 01:41:37 [INFO] ServerMain - Loaded 1 elements from DB into memory.
+2026-05-19 01:41:37 [INFO] UdpServerModule - UDP server listening on port 5555
+2026-05-19 01:41:37 [INFO] ServerMain - Server is running on port 5555.
+2026-05-19 01:41:37 [INFO] ServerMain - Entering main loop. Type 'exit' to stop the server.
+2026-05-19 01:42:03 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:53686
+2026-05-19 01:42:03 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:53686
+2026-05-19 01:42:03 [INFO] CommandManager - User 'bb' logged in
+2026-05-19 01:42:03 [INFO] UdpServerModule - Response sent to /127.0.0.1:53686
+2026-05-19 01:42:05 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:53686
+2026-05-19 01:42:05 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:53686
+2026-05-19 01:42:05 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 01:42:05 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 01:42:05 [INFO] UdpServerModule - Response sent to /127.0.0.1:53686
+2026-05-19 01:42:15 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:53686
+2026-05-19 01:42:15 [INFO] ServerMain - Deserialized command: REORDER from /127.0.0.1:53686
+2026-05-19 01:42:15 [INFO] CommandManager - Executing command REORDER for user 'bb'
+2026-05-19 01:42:15 [INFO] CommandManager - Command REORDER done for 'bb'
+2026-05-19 01:42:15 [INFO] UdpServerModule - Response sent to /127.0.0.1:53686
+2026-05-19 01:43:54 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52822
+2026-05-19 01:43:54 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:52822
+2026-05-19 01:43:54 [INFO] CommandManager - User 'bb' logged in
+2026-05-19 01:43:54 [INFO] UdpServerModule - Response sent to /127.0.0.1:52822
+2026-05-19 01:44:10 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52822
+2026-05-19 01:44:10 [INFO] ServerMain - Deserialized command: ADD from /127.0.0.1:52822
+2026-05-19 01:44:10 [INFO] CommandManager - Executing command ADD for user 'bb'
+2026-05-19 01:44:10 [INFO] CommandManager - Command ADD done for 'bb'
+2026-05-19 01:44:10 [INFO] UdpServerModule - Response sent to /127.0.0.1:52822
+2026-05-19 01:44:23 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52822
+2026-05-19 01:44:23 [INFO] ServerMain - Deserialized command: ADD from /127.0.0.1:52822
+2026-05-19 01:44:23 [INFO] CommandManager - Executing command ADD for user 'bb'
+2026-05-19 01:44:23 [INFO] CommandManager - Command ADD done for 'bb'
+2026-05-19 01:44:23 [INFO] UdpServerModule - Response sent to /127.0.0.1:52822
+2026-05-19 01:44:25 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52822
+2026-05-19 01:44:25 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:52822
+2026-05-19 01:44:25 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 01:44:25 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 01:44:25 [INFO] UdpServerModule - Response sent to /127.0.0.1:52822
+2026-05-19 01:44:30 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52822
+2026-05-19 01:44:30 [INFO] ServerMain - Deserialized command: SORT from /127.0.0.1:52822
+2026-05-19 01:44:30 [INFO] CommandManager - Executing command SORT for user 'bb'
+2026-05-19 01:44:30 [INFO] CommandManager - Command SORT done for 'bb'
+2026-05-19 01:44:30 [INFO] UdpServerModule - Response sent to /127.0.0.1:52822
+2026-05-19 01:44:34 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52822
+2026-05-19 01:44:34 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:52822
+2026-05-19 01:44:34 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 01:44:34 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 01:44:34 [INFO] UdpServerModule - Response sent to /127.0.0.1:52822
+2026-05-19 01:44:53 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52822
+2026-05-19 01:44:53 [INFO] ServerMain - Deserialized command: REORDER from /127.0.0.1:52822
+2026-05-19 01:44:53 [INFO] CommandManager - Executing command REORDER for user 'bb'
+2026-05-19 01:44:53 [INFO] CommandManager - Command REORDER done for 'bb'
+2026-05-19 01:44:53 [INFO] UdpServerModule - Response sent to /127.0.0.1:52822
+2026-05-19 01:44:57 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52822
+2026-05-19 01:44:57 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:52822
+2026-05-19 01:44:57 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 01:44:57 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 01:44:57 [INFO] UdpServerModule - Response sent to /127.0.0.1:52822
+2026-05-19 02:24:33 [INFO] ServerMain - === Lab7 Server starting ===
+2026-05-19 02:24:33 [INFO] ServerMain - DB: jdbc:postgresql://localhost:5432/studs  User: postgres
+2026-05-19 02:24:33 [INFO] ServerMain - Database schema initialized.
+2026-05-19 02:24:33 [INFO] ServerMain - Loaded 3 elements from DB into memory.
+2026-05-19 02:24:34 [INFO] UdpServerModule - UDP server listening on port 5555
+2026-05-19 02:24:34 [INFO] ServerMain - Server is running on port 5555.
+2026-05-19 02:24:34 [INFO] ServerMain - Entering main loop. Type 'exit' to stop the server.
+2026-05-19 02:24:37 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52822
+2026-05-19 02:24:37 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:52822
+2026-05-19 02:24:37 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 02:24:37 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 02:24:37 [INFO] UdpServerModule - Response sent to /127.0.0.1:52822
+2026-05-19 02:26:49 [INFO] ServerMain - === Lab7 Server starting ===
+2026-05-19 02:26:49 [INFO] ServerMain - DB: jdbc:postgresql://localhost:5432/studs  User: postgres
+2026-05-19 02:26:49 [INFO] ServerMain - Database schema initialized.
+2026-05-19 02:26:49 [INFO] ServerMain - Loaded 3 elements from DB into memory.
+2026-05-19 02:26:49 [INFO] UdpServerModule - UDP server listening on port 5555
+2026-05-19 02:26:49 [INFO] ServerMain - Server is running on port 5555.
+2026-05-19 02:26:49 [INFO] ServerMain - Entering main loop. Type 'exit' to stop the server.
+2026-05-19 02:26:59 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:50487
+2026-05-19 02:26:59 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:50487
+2026-05-19 02:26:59 [INFO] CommandManager - User 'bb' logged in
+2026-05-19 02:26:59 [INFO] UdpServerModule - Response sent to /127.0.0.1:50487
+2026-05-19 02:27:01 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:50487
+2026-05-19 02:27:01 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:50487
+2026-05-19 02:27:01 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 02:27:01 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 02:27:01 [INFO] UdpServerModule - Response sent to /127.0.0.1:50487
+2026-05-19 02:27:42 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:62453
+2026-05-19 02:27:42 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:62453
+2026-05-19 02:27:42 [INFO] CommandManager - User 'bb' logged in
+2026-05-19 02:27:42 [INFO] UdpServerModule - Response sent to /127.0.0.1:62453
+2026-05-19 02:28:34 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:62453
+2026-05-19 02:28:34 [INFO] ServerMain - Deserialized command: UPDATE from /127.0.0.1:62453
+2026-05-19 02:28:34 [INFO] CommandManager - Executing command UPDATE for user 'bb'
+2026-05-19 02:28:34 [INFO] CommandManager - Command UPDATE done for 'bb'
+2026-05-19 02:28:34 [INFO] UdpServerModule - Response sent to /127.0.0.1:62453
+2026-05-19 02:29:30 [INFO] ServerMain - === Lab7 Server starting ===
+2026-05-19 02:29:30 [INFO] ServerMain - DB: jdbc:postgresql://localhost:5432/studs  User: postgres
+2026-05-19 02:29:31 [INFO] ServerMain - Database schema initialized.
+2026-05-19 02:29:31 [INFO] ServerMain - Loaded 3 elements from DB into memory.
+2026-05-19 02:29:31 [INFO] UdpServerModule - UDP server listening on port 5555
+2026-05-19 02:29:31 [INFO] ServerMain - Server is running on port 5555.
+2026-05-19 02:29:31 [INFO] ServerMain - Entering main loop. Type 'exit' to stop the server.
+2026-05-19 02:29:33 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:62453
+2026-05-19 02:29:33 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:62453
+2026-05-19 02:29:33 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 02:29:33 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 02:29:33 [INFO] UdpServerModule - Response sent to /127.0.0.1:62453
+2026-05-19 02:32:50 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:61213
+2026-05-19 02:32:50 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:61213
+2026-05-19 02:32:50 [INFO] CommandManager - User 'bb' logged in
+2026-05-19 02:32:50 [INFO] UdpServerModule - Response sent to /127.0.0.1:61213
+2026-05-19 02:33:55 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:62372
+2026-05-19 02:33:55 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:62372
+2026-05-19 02:33:55 [INFO] CommandManager - User 'bb' logged in
+2026-05-19 02:33:55 [INFO] UdpServerModule - Response sent to /127.0.0.1:62372
+2026-05-19 02:35:27 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:59761
+2026-05-19 02:35:27 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:59761
+2026-05-19 02:35:27 [INFO] UdpServerModule - Response sent to /127.0.0.1:59761
+2026-05-19 02:35:33 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:59761
+2026-05-19 02:35:33 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:59761
+2026-05-19 02:35:33 [INFO] CommandManager - User 'bb' logged in
+2026-05-19 02:35:33 [INFO] UdpServerModule - Response sent to /127.0.0.1:59761
+2026-05-19 02:35:35 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:59761
+2026-05-19 02:35:35 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:59761
+2026-05-19 02:35:35 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 02:35:35 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 02:35:35 [INFO] UdpServerModule - Response sent to /127.0.0.1:59761
+2026-05-19 02:35:42 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:59761
+2026-05-19 02:35:42 [INFO] ServerMain - Deserialized command: SORT from /127.0.0.1:59761
+2026-05-19 02:35:42 [INFO] CommandManager - Executing command SORT for user 'bb'
+2026-05-19 02:35:42 [INFO] CommandManager - Command SORT done for 'bb'
+2026-05-19 02:35:42 [INFO] UdpServerModule - Response sent to /127.0.0.1:59761
+2026-05-19 02:35:44 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:59761
+2026-05-19 02:35:44 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:59761
+2026-05-19 02:35:45 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 02:35:45 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 02:35:45 [INFO] UdpServerModule - Response sent to /127.0.0.1:59761
+2026-05-19 02:35:47 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:59761
+2026-05-19 02:35:47 [INFO] ServerMain - Deserialized command: REORDER from /127.0.0.1:59761
+2026-05-19 02:35:47 [INFO] CommandManager - Executing command REORDER for user 'bb'
+2026-05-19 02:35:47 [INFO] CommandManager - Command REORDER done for 'bb'
+2026-05-19 02:35:47 [INFO] UdpServerModule - Response sent to /127.0.0.1:59761
+2026-05-19 02:35:51 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:59761
+2026-05-19 02:35:51 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:59761
+2026-05-19 02:35:51 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 02:35:51 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 02:35:51 [INFO] UdpServerModule - Response sent to /127.0.0.1:59761
+2026-05-19 02:36:06 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:59761
+2026-05-19 02:36:06 [INFO] ServerMain - Deserialized command: EXIT from /127.0.0.1:59761
+2026-05-19 02:36:06 [INFO] CommandManager - Executing command EXIT for user 'bb'
+2026-05-19 02:36:06 [INFO] CommandManager - Command EXIT done for 'bb'
+2026-05-19 02:36:06 [INFO] UdpServerModule - Response sent to /127.0.0.1:59761
+2026-05-19 02:36:15 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60302
+2026-05-19 02:36:15 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:60302
+2026-05-19 02:36:15 [INFO] CommandManager - User 'bb' logged in
+2026-05-19 02:36:15 [INFO] UdpServerModule - Response sent to /127.0.0.1:60302
+2026-05-19 02:36:17 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60302
+2026-05-19 02:36:17 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:60302
+2026-05-19 02:36:17 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 02:36:17 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 02:36:17 [INFO] UdpServerModule - Response sent to /127.0.0.1:60302
+2026-05-19 02:36:26 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60302
+2026-05-19 02:36:26 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:60302
+2026-05-19 02:36:26 [INFO] CommandManager - User 'bb' logged in
+2026-05-19 02:36:26 [INFO] UdpServerModule - Response sent to /127.0.0.1:60302
+2026-05-19 02:36:28 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60302
+2026-05-19 02:36:28 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:60302
+2026-05-19 02:36:28 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 02:36:28 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 02:36:28 [INFO] UdpServerModule - Response sent to /127.0.0.1:60302
+2026-05-19 02:36:42 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60302
+2026-05-19 02:36:42 [INFO] ServerMain - Deserialized command: SORT from /127.0.0.1:60302
+2026-05-19 02:36:42 [INFO] CommandManager - Executing command SORT for user 'bb'
+2026-05-19 02:36:42 [INFO] CommandManager - Command SORT done for 'bb'
+2026-05-19 02:36:42 [INFO] UdpServerModule - Response sent to /127.0.0.1:60302
+2026-05-19 02:36:47 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60302
+2026-05-19 02:36:47 [INFO] ServerMain - Deserialized command: HELP from /127.0.0.1:60302
+2026-05-19 02:36:47 [INFO] CommandManager - Executing command HELP for user 'bb'
+2026-05-19 02:36:47 [INFO] CommandManager - Command HELP done for 'bb'
+2026-05-19 02:36:47 [INFO] UdpServerModule - Response sent to /127.0.0.1:60302
+2026-05-19 02:37:00 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60302
+2026-05-19 02:37:00 [INFO] ServerMain - Deserialized command: EXIT from /127.0.0.1:60302
+2026-05-19 02:37:00 [INFO] CommandManager - Executing command EXIT for user 'bb'
+2026-05-19 02:37:00 [INFO] CommandManager - Command EXIT done for 'bb'
+2026-05-19 02:37:00 [INFO] UdpServerModule - Response sent to /127.0.0.1:60302
+2026-05-19 02:37:03 [INFO] ServerMain - Exit command received from console.
+2026-05-19 13:36:43 [INFO] ServerMain - === Lab7 Server starting ===
+2026-05-19 13:36:43 [INFO] ServerMain - DB: jdbc:postgresql://localhost:5432/studs  User: postgres
+2026-05-19 13:36:43 [ERROR] ServerMain - Server error
+org.postgresql.util.PSQLException: Подсоединение по адресу localhost:5432 отклонено. Проверьте что хост и порт указаны правильно и что postmaster принимает TCP/IP-подсоединения.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:346) ~[lab6-1.0.jar:?]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[lab6-1.0.jar:?]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273) ~[lab6-1.0.jar:?]
+	at org.postgresql.Driver.makeConnection(Driver.java:446) ~[lab6-1.0.jar:?]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[lab6-1.0.jar:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:613) ~[java.sql:?]
+	at java.sql.DriverManager.getConnection(DriverManager.java:199) ~[java.sql:?]
+	at managers.DatabaseManager.getConnection(DatabaseManager.java:14) ~[lab6-1.0.jar:?]
+	at managers.DatabaseManager.initSchema(DatabaseManager.java:50) ~[lab6-1.0.jar:?]
+	at ServerMain.main(ServerMain.java:25) [lab6-1.0.jar:?]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:628) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282) ~[?:?]
+	at java.net.Socket.connect(Socket.java:665) ~[?:?]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[lab6-1.0.jar:?]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[lab6-1.0.jar:?]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:136) ~[lab6-1.0.jar:?]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262) ~[lab6-1.0.jar:?]
+	... 9 more
+2026-05-19 13:37:53 [INFO] ServerMain - === Lab7 Server starting ===
+2026-05-19 13:37:53 [INFO] ServerMain - DB: jdbc:postgresql://localhost:5432/studs  User: postgres
+2026-05-19 13:37:53 [INFO] ServerMain - Database schema initialized.
+2026-05-19 13:37:53 [INFO] ServerMain - Loaded 3 elements from DB into memory.
+2026-05-19 13:37:53 [INFO] UdpServerModule - UDP server listening on port 5555
+2026-05-19 13:37:53 [INFO] ServerMain - Server is running on port 5555.
+2026-05-19 13:38:09 [INFO] ServerMain - DB: jdbc:postgresql://localhost:5432/studs  User: postgres
+2026-05-19 13:38:09 [INFO] ServerMain - Database schema initialized.
+2026-05-19 13:38:09 [INFO] ServerMain - Loaded 3 elements from DB into memory.
+2026-05-19 13:38:09 [INFO] UdpServerModule - UDP server listening on port 5555
+2026-05-19 13:38:09 [INFO] ServerMain - Server is running on port 5555.
+2026-05-19 13:40:07 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:56355
+2026-05-19 13:40:07 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:56355
+2026-05-19 13:40:07 [INFO] CommandManager - User 'bb' logged in
+2026-05-19 13:40:07 [INFO] UdpServerModule - Response sent to /127.0.0.1:56355
+2026-05-19 13:40:19 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:61855
+2026-05-19 13:40:19 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:61855
+2026-05-19 13:40:19 [INFO] CommandManager - User 'bb' logged in
+2026-05-19 13:40:19 [INFO] UdpServerModule - Response sent to /127.0.0.1:61855
+2026-05-19 13:40:21 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:61855
+2026-05-19 13:40:21 [INFO] ServerMain - Deserialized command: EXIT from /127.0.0.1:61855
+2026-05-19 13:40:21 [INFO] CommandManager - Executing command EXIT for user 'bb'
+2026-05-19 13:40:21 [INFO] CommandManager - Command EXIT done for 'bb'
+2026-05-19 13:40:21 [INFO] UdpServerModule - Response sent to /127.0.0.1:61855
+2026-05-19 13:46:26 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60070
+2026-05-19 13:46:26 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:60070
+2026-05-19 13:46:26 [INFO] CommandManager - User 'bb' logged in
+2026-05-19 13:46:26 [INFO] UdpServerModule - Response sent to /127.0.0.1:60070
+2026-05-19 13:46:29 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60070
+2026-05-19 13:46:29 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:60070
+2026-05-19 13:46:29 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 13:46:29 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 13:46:29 [INFO] UdpServerModule - Response sent to /127.0.0.1:60070
+2026-05-19 13:46:33 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60070
+2026-05-19 13:46:33 [INFO] ServerMain - Deserialized command: REORDER from /127.0.0.1:60070
+2026-05-19 13:46:33 [INFO] CommandManager - Executing command REORDER for user 'bb'
+2026-05-19 13:46:33 [INFO] CommandManager - Command REORDER done for 'bb'
+2026-05-19 13:46:33 [INFO] UdpServerModule - Response sent to /127.0.0.1:60070
+2026-05-19 13:46:36 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60070
+2026-05-19 13:46:36 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:60070
+2026-05-19 13:46:36 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 13:46:36 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 13:46:36 [INFO] UdpServerModule - Response sent to /127.0.0.1:60070
+2026-05-19 13:46:51 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60070
+2026-05-19 13:46:51 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:60070
+2026-05-19 13:46:51 [INFO] CommandManager - User 'bobik' logged in
+2026-05-19 13:46:51 [INFO] UdpServerModule - Response sent to /127.0.0.1:60070
+2026-05-19 13:46:54 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60070
+2026-05-19 13:46:54 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:60070
+2026-05-19 13:46:54 [INFO] CommandManager - Executing command SHOW for user 'bobik'
+2026-05-19 13:46:54 [INFO] CommandManager - Command SHOW done for 'bobik'
+2026-05-19 13:46:54 [INFO] UdpServerModule - Response sent to /127.0.0.1:60070
+2026-05-19 13:47:04 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60070
+2026-05-19 13:47:04 [INFO] ServerMain - Deserialized command: REMOVE_BY_ID from /127.0.0.1:60070
+2026-05-19 13:47:04 [INFO] CommandManager - Executing command REMOVE_BY_ID for user 'bobik'
+2026-05-19 13:47:04 [INFO] CommandManager - Command REMOVE_BY_ID done for 'bobik'
+2026-05-19 13:47:04 [INFO] UdpServerModule - Response sent to /127.0.0.1:60070
+2026-05-19 13:47:07 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60070
+2026-05-19 13:47:07 [INFO] ServerMain - Deserialized command: REMOVE_BY_ID from /127.0.0.1:60070
+2026-05-19 13:47:07 [INFO] CommandManager - Executing command REMOVE_BY_ID for user 'bobik'
+2026-05-19 13:47:07 [INFO] CommandManager - Command REMOVE_BY_ID done for 'bobik'
+2026-05-19 13:47:07 [INFO] UdpServerModule - Response sent to /127.0.0.1:60070
+2026-05-19 13:47:16 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60070
+2026-05-19 13:47:16 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:60070
+2026-05-19 13:47:16 [INFO] CommandManager - User 'bb' logged in
+2026-05-19 13:47:16 [INFO] UdpServerModule - Response sent to /127.0.0.1:60070
+2026-05-19 13:47:17 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60070
+2026-05-19 13:47:17 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:60070
+2026-05-19 13:47:17 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 13:47:17 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 13:47:17 [INFO] UdpServerModule - Response sent to /127.0.0.1:60070
+2026-05-19 13:47:22 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60070
+2026-05-19 13:47:22 [INFO] ServerMain - Deserialized command: SORT from /127.0.0.1:60070
+2026-05-19 13:47:22 [INFO] CommandManager - Executing command SORT for user 'bb'
+2026-05-19 13:47:22 [INFO] CommandManager - Command SORT done for 'bb'
+2026-05-19 13:47:22 [INFO] UdpServerModule - Response sent to /127.0.0.1:60070
+2026-05-19 13:47:26 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60070
+2026-05-19 13:47:26 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:60070
+2026-05-19 13:47:26 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 13:47:26 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 13:47:26 [INFO] UdpServerModule - Response sent to /127.0.0.1:60070
+2026-05-19 13:47:32 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60070
+2026-05-19 13:47:32 [INFO] ServerMain - Deserialized command: SORT from /127.0.0.1:60070
+2026-05-19 13:47:32 [INFO] CommandManager - Executing command SORT for user 'bb'
+2026-05-19 13:47:32 [INFO] CommandManager - Command SORT done for 'bb'
+2026-05-19 13:47:32 [INFO] UdpServerModule - Response sent to /127.0.0.1:60070
+2026-05-19 13:47:34 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:60070
+2026-05-19 13:47:34 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:60070
+2026-05-19 13:47:34 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 13:47:34 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 13:47:34 [INFO] UdpServerModule - Response sent to /127.0.0.1:60070
+2026-05-19 13:47:55 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52810
+2026-05-19 13:47:55 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:52810
+2026-05-19 13:47:55 [INFO] CommandManager - User 'bb' logged in
+2026-05-19 13:47:55 [INFO] UdpServerModule - Response sent to /127.0.0.1:52810
+2026-05-19 13:48:04 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52810
+2026-05-19 13:48:04 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:52810
+2026-05-19 13:48:04 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 13:48:04 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 13:48:04 [INFO] UdpServerModule - Response sent to /127.0.0.1:52810
+2026-05-19 13:48:06 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52810
+2026-05-19 13:48:06 [INFO] ServerMain - Deserialized command: SORT from /127.0.0.1:52810
+2026-05-19 13:48:06 [INFO] CommandManager - Executing command SORT for user 'bb'
+2026-05-19 13:48:06 [INFO] CommandManager - Command SORT done for 'bb'
+2026-05-19 13:48:06 [INFO] UdpServerModule - Response sent to /127.0.0.1:52810
+2026-05-19 13:48:09 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52810
+2026-05-19 13:48:09 [INFO] ServerMain - Deserialized command: REORDER from /127.0.0.1:52810
+2026-05-19 13:48:09 [INFO] CommandManager - Executing command REORDER for user 'bb'
+2026-05-19 13:48:09 [INFO] CommandManager - Command REORDER done for 'bb'
+2026-05-19 13:48:09 [INFO] UdpServerModule - Response sent to /127.0.0.1:52810
+2026-05-19 13:48:11 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52810
+2026-05-19 13:48:11 [INFO] ServerMain - Deserialized command: SORT from /127.0.0.1:52810
+2026-05-19 13:48:12 [INFO] CommandManager - Executing command SORT for user 'bb'
+2026-05-19 13:48:12 [INFO] CommandManager - Command SORT done for 'bb'
+2026-05-19 13:48:12 [INFO] UdpServerModule - Response sent to /127.0.0.1:52810
+2026-05-19 13:48:15 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52810
+2026-05-19 13:48:15 [INFO] ServerMain - Deserialized command: REORDER from /127.0.0.1:52810
+2026-05-19 13:48:15 [INFO] CommandManager - Executing command REORDER for user 'bb'
+2026-05-19 13:48:15 [INFO] CommandManager - Command REORDER done for 'bb'
+2026-05-19 13:48:15 [INFO] UdpServerModule - Response sent to /127.0.0.1:52810
+2026-05-19 13:48:17 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52810
+2026-05-19 13:48:17 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:52810
+2026-05-19 13:48:17 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 13:48:17 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 13:48:17 [INFO] UdpServerModule - Response sent to /127.0.0.1:52810
+2026-05-19 13:48:19 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52810
+2026-05-19 13:48:19 [INFO] ServerMain - Deserialized command: SORT from /127.0.0.1:52810
+2026-05-19 13:48:19 [INFO] CommandManager - Executing command SORT for user 'bb'
+2026-05-19 13:48:19 [INFO] CommandManager - Command SORT done for 'bb'
+2026-05-19 13:48:19 [INFO] UdpServerModule - Response sent to /127.0.0.1:52810
+2026-05-19 13:48:35 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52810
+2026-05-19 13:48:35 [INFO] ServerMain - Deserialized command: EXIT from /127.0.0.1:52810
+2026-05-19 13:48:35 [INFO] CommandManager - Executing command EXIT for user 'bb'
+2026-05-19 13:48:35 [INFO] CommandManager - Command EXIT done for 'bb'
+2026-05-19 13:48:35 [INFO] UdpServerModule - Response sent to /127.0.0.1:52810
+2026-05-19 13:49:13 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52339
+2026-05-19 13:49:13 [INFO] ServerMain - Deserialized command: REGISTER from /127.0.0.1:52339
+2026-05-19 13:49:13 [INFO] CommandManager - New user registered: 'f'
+2026-05-19 13:49:13 [INFO] UdpServerModule - Response sent to /127.0.0.1:52339
+2026-05-19 13:49:28 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52339
+2026-05-19 13:49:28 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:52339
+2026-05-19 13:49:28 [INFO] CommandManager - User 'f' logged in
+2026-05-19 13:49:28 [INFO] UdpServerModule - Response sent to /127.0.0.1:52339
+2026-05-19 13:49:30 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52339
+2026-05-19 13:49:30 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:52339
+2026-05-19 13:49:30 [INFO] CommandManager - Executing command SHOW for user 'f'
+2026-05-19 13:49:30 [INFO] CommandManager - Command SHOW done for 'f'
+2026-05-19 13:49:30 [INFO] UdpServerModule - Response sent to /127.0.0.1:52339
+2026-05-19 13:49:32 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52339
+2026-05-19 13:49:32 [INFO] ServerMain - Deserialized command: SORT from /127.0.0.1:52339
+2026-05-19 13:49:32 [INFO] CommandManager - Executing command SORT for user 'f'
+2026-05-19 13:49:32 [INFO] CommandManager - Command SORT done for 'f'
+2026-05-19 13:49:32 [INFO] UdpServerModule - Response sent to /127.0.0.1:52339
+2026-05-19 13:49:36 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52339
+2026-05-19 13:49:36 [INFO] ServerMain - Deserialized command: CLEAR from /127.0.0.1:52339
+2026-05-19 13:49:36 [INFO] CommandManager - Executing command CLEAR for user 'f'
+2026-05-19 13:49:36 [INFO] CommandManager - Command CLEAR done for 'f'
+2026-05-19 13:49:36 [INFO] UdpServerModule - Response sent to /127.0.0.1:52339
+2026-05-19 13:49:51 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52339
+2026-05-19 13:49:51 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:52339
+2026-05-19 13:49:51 [INFO] CommandManager - User 'bb' logged in
+2026-05-19 13:49:51 [INFO] UdpServerModule - Response sent to /127.0.0.1:52339
+2026-05-19 13:49:52 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52339
+2026-05-19 13:49:52 [INFO] ServerMain - Deserialized command: CLEAR from /127.0.0.1:52339
+2026-05-19 13:49:52 [INFO] CommandManager - Executing command CLEAR for user 'bb'
+2026-05-19 13:49:52 [INFO] CommandManager - Command CLEAR done for 'bb'
+2026-05-19 13:49:52 [INFO] UdpServerModule - Response sent to /127.0.0.1:52339
+2026-05-19 13:49:54 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52339
+2026-05-19 13:49:54 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:52339
+2026-05-19 13:49:55 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 13:49:55 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 13:49:55 [INFO] UdpServerModule - Response sent to /127.0.0.1:52339
+2026-05-19 13:49:58 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52339
+2026-05-19 13:49:58 [INFO] ServerMain - Deserialized command: INFO from /127.0.0.1:52339
+2026-05-19 13:49:58 [INFO] CommandManager - Executing command INFO for user 'bb'
+2026-05-19 13:49:58 [INFO] CommandManager - Command INFO done for 'bb'
+2026-05-19 13:49:58 [INFO] UdpServerModule - Response sent to /127.0.0.1:52339
+2026-05-19 13:50:01 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:52339
+2026-05-19 13:50:01 [INFO] ServerMain - Deserialized command: HELP from /127.0.0.1:52339
+2026-05-19 13:50:01 [INFO] CommandManager - Executing command HELP for user 'bb'
+2026-05-19 13:50:01 [INFO] CommandManager - Command HELP done for 'bb'
+2026-05-19 13:50:01 [INFO] UdpServerModule - Response sent to /127.0.0.1:52339
+2026-05-19 13:50:41 [INFO] ServerMain - DB: jdbc:postgresql://pg:5432/studs  User: s502846
+2026-05-19 14:05:39 [INFO] ServerMain - DB: jdbc:postgresql://localhost:5432/studs  User: postgres
+2026-05-19 14:05:39 [INFO] ServerMain - Database schema initialized.
+2026-05-19 14:05:39 [INFO] ServerMain - Loaded 0 elements from DB into memory.
+2026-05-19 14:05:39 [INFO] UdpServerModule - UDP server listening on port 5555
+2026-05-19 14:05:39 [INFO] ServerMain - Server is running on port 5555.
+2026-05-19 14:05:48 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:55963
+2026-05-19 14:05:48 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:55963
+2026-05-19 14:05:48 [INFO] CommandManager - User 'bb' logged in
+2026-05-19 14:05:48 [INFO] UdpServerModule - Response sent to /127.0.0.1:55963
+2026-05-19 14:05:50 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:55963
+2026-05-19 14:05:50 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:55963
+2026-05-19 14:05:50 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 14:05:50 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 14:05:50 [INFO] UdpServerModule - Response sent to /127.0.0.1:55963
+2026-05-19 14:05:52 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:55963
+2026-05-19 14:05:52 [INFO] ServerMain - Deserialized command: HELP from /127.0.0.1:55963
+2026-05-19 14:05:52 [INFO] CommandManager - Executing command HELP for user 'bb'
+2026-05-19 14:05:52 [INFO] CommandManager - Command HELP done for 'bb'
+2026-05-19 14:05:52 [INFO] UdpServerModule - Response sent to /127.0.0.1:55963
+2026-05-19 14:05:54 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:55963
+2026-05-19 14:05:54 [INFO] ServerMain - Deserialized command: EXIT from /127.0.0.1:55963
+2026-05-19 14:05:54 [INFO] CommandManager - Executing command EXIT for user 'bb'
+2026-05-19 14:05:54 [INFO] CommandManager - Command EXIT done for 'bb'
+2026-05-19 14:05:54 [INFO] UdpServerModule - Response sent to /127.0.0.1:55963
+2026-05-19 14:05:57 [INFO] ServerMain - Exit command received from console.
+2026-05-19 17:54:46 [INFO] ServerMain - DB: jdbc:postgresql://localhost:5432/studs  User: postgres
+2026-05-19 17:54:46 [INFO] ServerMain - Database schema initialized.
+2026-05-19 17:54:46 [INFO] ServerMain - Loaded 0 elements from DB into memory.
+2026-05-19 17:54:46 [INFO] UdpServerModule - UDP server listening on port 5555
+2026-05-19 17:54:46 [INFO] ServerMain - Server is running on port 5555.
+2026-05-19 17:55:09 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:63413
+2026-05-19 17:55:09 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:63413
+2026-05-19 17:55:10 [INFO] CommandManager - User 'bb' logged in
+2026-05-19 17:55:10 [INFO] UdpServerModule - Response sent to /127.0.0.1:63413
+2026-05-19 17:55:17 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:63413
+2026-05-19 17:55:17 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:63413
+2026-05-19 17:55:17 [INFO] CommandManager - Executing command SHOW for user 'bb'
+2026-05-19 17:55:17 [INFO] CommandManager - Command SHOW done for 'bb'
+2026-05-19 17:55:17 [INFO] UdpServerModule - Response sent to /127.0.0.1:63413
+2026-05-19 17:55:27 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:63413
+2026-05-19 17:55:27 [INFO] ServerMain - Deserialized command: ADD from /127.0.0.1:63413
+2026-05-19 17:55:27 [INFO] CommandManager - Executing command ADD for user 'bb'
+2026-05-19 17:55:27 [INFO] CommandManager - Command ADD done for 'bb'
+2026-05-19 17:55:27 [INFO] UdpServerModule - Response sent to /127.0.0.1:63413
+2026-05-19 17:55:37 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:63413
+2026-05-19 17:55:37 [INFO] ServerMain - Deserialized command: LOGIN from /127.0.0.1:63413
+2026-05-19 17:55:37 [INFO] CommandManager - User 'bobik' logged in
+2026-05-19 17:55:37 [INFO] UdpServerModule - Response sent to /127.0.0.1:63413
+2026-05-19 17:55:50 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:63413
+2026-05-19 17:55:50 [INFO] ServerMain - Deserialized command: ADD from /127.0.0.1:63413
+2026-05-19 17:55:50 [INFO] CommandManager - Executing command ADD for user 'bobik'
+2026-05-19 17:55:50 [INFO] CommandManager - Command ADD done for 'bobik'
+2026-05-19 17:55:50 [INFO] UdpServerModule - Response sent to /127.0.0.1:63413
+2026-05-19 17:55:53 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:63413
+2026-05-19 17:55:53 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:63413
+2026-05-19 17:55:53 [INFO] CommandManager - Executing command SHOW for user 'bobik'
+2026-05-19 17:55:53 [INFO] CommandManager - Command SHOW done for 'bobik'
+2026-05-19 17:55:53 [INFO] UdpServerModule - Response sent to /127.0.0.1:63413
+2026-05-19 17:56:10 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:63413
+2026-05-19 17:56:10 [INFO] ServerMain - Deserialized command: REMOVE_BY_ID from /127.0.0.1:63413
+2026-05-19 17:56:10 [INFO] CommandManager - Executing command REMOVE_BY_ID for user 'bobik'
+2026-05-19 17:56:10 [INFO] CommandManager - Command REMOVE_BY_ID done for 'bobik'
+2026-05-19 17:56:10 [INFO] UdpServerModule - Response sent to /127.0.0.1:63413
+2026-05-19 17:56:14 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:63413
+2026-05-19 17:56:14 [INFO] ServerMain - Deserialized command: SHOW from /127.0.0.1:63413
+2026-05-19 17:56:14 [INFO] CommandManager - Executing command SHOW for user 'bobik'
+2026-05-19 17:56:14 [INFO] CommandManager - Command SHOW done for 'bobik'
+2026-05-19 17:56:14 [INFO] UdpServerModule - Response sent to /127.0.0.1:63413
+2026-05-19 17:56:47 [INFO] UdpServerModule - Received raw packet from /127.0.0.1:63413
+2026-05-19 17:56:47 [INFO] ServerMain - Deserialized command: HELP from /127.0.0.1:63413
+2026-05-19 17:56:47 [INFO] CommandManager - Executing command HELP for user 'bobik'
+2026-05-19 17:56:47 [INFO] CommandManager - Command HELP done for 'bobik'
+2026-05-19 17:56:47 [INFO] UdpServerModule - Response sent to /127.0.0.1:63413

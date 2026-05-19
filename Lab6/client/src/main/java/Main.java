@@ -27,7 +27,7 @@ public class Main {
 
             socket.setSoTimeout(2500);
             InetAddress address = InetAddress.getByName("localhost");
-            int port = 5555;
+            int port = 8888;
 
             while (true) {
                 System.out.print("> ");

@@ -27,7 +27,7 @@ public class UdpServerModule {
         selector = Selector.open();
         channel.register(selector, SelectionKey.OP_READ);
 
-        logger.info("The UDP server listens on port 555 {}", port);
+        logger.info("The UDP server listens on port {}", port);
     }
 
     public Command readCommand() throws Exception {
